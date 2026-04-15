@@ -1,0 +1,337 @@
+country,alpha_2_code,alpha_3_code,numeric_code,indicator,time_period,obs_value,sex,unit_multiplier,unit_of_measure,observation_status,observation_confidentaility,time_period_activity_related_to_when_the_data_are_collected,current_age
+Afghanistan,AF,AFG,4,Adjusted net attendance rate for adolescents of lower secondary school age,2015,27.9,Female,,%,,,,Total
+Afghanistan,AF,AFG,4,Adjusted net attendance rate for adolescents of lower secondary school age,2015,47.799999,Male,,%,,,,Total
+Afghanistan,AF,AFG,4,Adjusted net attendance rate for adolescents of lower secondary school age,2015,38.299999,Total,,%,,,,Total
+Albania,AL,ALB,8,Adjusted net attendance rate for adolescents of lower secondary school age,2018,95.305901,Female,,%,,,,Total
+Albania,AL,ALB,8,Adjusted net attendance rate for adolescents of lower secondary school age,2018,94.957283,Male,,%,,,,Total
+Albania,AL,ALB,8,Adjusted net attendance rate for adolescents of lower secondary school age,2018,95.1241,Total,,%,,,,Total
+Algeria,DZ,DZA,12,Adjusted net attendance rate for adolescents of lower secondary school age,2020,88.482033,Female,,%,,,,Total
+Algeria,DZ,DZA,12,Adjusted net attendance rate for adolescents of lower secondary school age,2020,82.081398,Male,,%,,,,Total
+Algeria,DZ,DZA,12,Adjusted net attendance rate for adolescents of lower secondary school age,2020,85.201317,Total,,%,,,,Total
+Angola,AO,AGO,24,Adjusted net attendance rate for adolescents of lower secondary school age,2016,30.799999,Female,,%,,,,Total
+Angola,AO,AGO,24,Adjusted net attendance rate for adolescents of lower secondary school age,2016,32.200001,Male,,%,,,,Total
+Angola,AO,AGO,24,Adjusted net attendance rate for adolescents of lower secondary school age,2016,31.4,Total,,%,,,,Total
+Argentina,AR,ARG,32,Adjusted net attendance rate for adolescents of lower secondary school age,2020,92.289497,Female,,%,,,,Total
+Argentina,AR,ARG,32,Adjusted net attendance rate for adolescents of lower secondary school age,2020,86.628639,Male,,%,,,,Total
+Argentina,AR,ARG,32,Adjusted net attendance rate for adolescents of lower secondary school age,2020,89.400009,Total,,%,,,,Total
+Armenia,AM,ARM,51,Adjusted net attendance rate for adolescents of lower secondary school age,2016,93.209381,Female,,%,,,,Total
+Armenia,AM,ARM,51,Adjusted net attendance rate for adolescents of lower secondary school age,2016,94.994583,Male,,%,,,,Total
+Armenia,AM,ARM,51,Adjusted net attendance rate for adolescents of lower secondary school age,2016,94.179199,Total,,%,,,,Total
+Bangladesh,BD,BGD,50,Adjusted net attendance rate for adolescents of lower secondary school age,2019,64.599998,Female,,%,,,,Total
+Bangladesh,BD,BGD,50,Adjusted net attendance rate for adolescents of lower secondary school age,2019,51.200001,Male,,%,,,,Total
+Bangladesh,BD,BGD,50,Adjusted net attendance rate for adolescents of lower secondary school age,2019,57.799999,Total,,%,,,,Total
+Barbados,BB,BRB,52,Adjusted net attendance rate for adolescents of lower secondary school age,2012,88.800003,Female,,%,,,,Total
+Barbados,BB,BRB,52,Adjusted net attendance rate for adolescents of lower secondary school age,2012,89,Male,,%,,,,Total
+Barbados,BB,BRB,52,Adjusted net attendance rate for adolescents of lower secondary school age,2012,88.900002,Total,,%,,,,Total
+Belarus,BY,BLR,112,Adjusted net attendance rate for adolescents of lower secondary school age,2020,95.595154,Female,,%,,,,Total
+Belarus,BY,BLR,112,Adjusted net attendance rate for adolescents of lower secondary school age,2020,91.244667,Male,,%,,,,Total
+Belarus,BY,BLR,112,Adjusted net attendance rate for adolescents of lower secondary school age,2020,93.276657,Total,,%,,,,Total
+Belize,BZ,BLZ,84,Adjusted net attendance rate for adolescents of lower secondary school age,2011,30.4,Female,,%,,,,Total
+Belize,BZ,BLZ,84,Adjusted net attendance rate for adolescents of lower secondary school age,2011,26.799999,Male,,%,,,,Total
+Belize,BZ,BLZ,84,Adjusted net attendance rate for adolescents of lower secondary school age,2011,28.6,Total,,%,,,,Total
+Benin,BJ,BEN,204,Adjusted net attendance rate for adolescents of lower secondary school age,2018,28.1,Female,,%,,,,Total
+Benin,BJ,BEN,204,Adjusted net attendance rate for adolescents of lower secondary school age,2018,32.5,Male,,%,,,,Total
+Benin,BJ,BEN,204,Adjusted net attendance rate for adolescents of lower secondary school age,2018,30.4,Total,,%,,,,Total
+Bhutan,BT,BTN,64,Adjusted net attendance rate for adolescents of lower secondary school age,2010,53.900002,Female,,%,,,,Total
+Bhutan,BT,BTN,64,Adjusted net attendance rate for adolescents of lower secondary school age,2010,51.599998,Male,,%,,,,Total
+Bhutan,BT,BTN,64,Adjusted net attendance rate for adolescents of lower secondary school age,2010,52.799999,Total,,%,,,,Total
+Bolivia,BO,BOL,68,Adjusted net attendance rate for adolescents of lower secondary school age,2016,71.730637,Female,,%,,,,Total
+Bolivia,BO,BOL,68,Adjusted net attendance rate for adolescents of lower secondary school age,2016,71.719261,Male,,%,,,,Total
+Bolivia,BO,BOL,68,Adjusted net attendance rate for adolescents of lower secondary school age,2016,71.724739,Total,,%,,,,Total
+Bosnia and Herzegovina,BA,BIH,70,Adjusted net attendance rate for adolescents of lower secondary school age,2012,96,Female,,%,,,,Total
+Bosnia and Herzegovina,BA,BIH,70,Adjusted net attendance rate for adolescents of lower secondary school age,2012,94.199997,Male,,%,,,,Total
+Bosnia and Herzegovina,BA,BIH,70,Adjusted net attendance rate for adolescents of lower secondary school age,2012,95.099998,Total,,%,,,,Total
+Brazil,BR,BRA,76,Adjusted net attendance rate for adolescents of lower secondary school age,2019,87.120827,Female,,%,,,,Total
+Brazil,BR,BRA,76,Adjusted net attendance rate for adolescents of lower secondary school age,2019,83.05426,Male,,%,,,,Total
+Brazil,BR,BRA,76,Adjusted net attendance rate for adolescents of lower secondary school age,2019,85.031647,Total,,%,,,,Total
+Burkina Faso,BF,BFA,854,Adjusted net attendance rate for adolescents of lower secondary school age,2010,17.200001,Female,,%,,,,Total
+Burkina Faso,BF,BFA,854,Adjusted net attendance rate for adolescents of lower secondary school age,2010,18.799999,Male,,%,,,,Total
+Burkina Faso,BF,BFA,854,Adjusted net attendance rate for adolescents of lower secondary school age,2010,18,Total,,%,,,,Total
+Burundi,BI,BDI,108,Adjusted net attendance rate for adolescents of lower secondary school age,2017,27.36039,Female,,%,,,,Total
+Burundi,BI,BDI,108,Adjusted net attendance rate for adolescents of lower secondary school age,2017,21.054569,Male,,%,,,,Total
+Burundi,BI,BDI,108,Adjusted net attendance rate for adolescents of lower secondary school age,2017,24.197029,Total,,%,,,,Total
+Cambodia,KH,KHM,116,Adjusted net attendance rate for adolescents of lower secondary school age,2014,54,Female,,%,,,,Total
+Cambodia,KH,KHM,116,Adjusted net attendance rate for adolescents of lower secondary school age,2014,47.099998,Male,,%,,,,Total
+Cambodia,KH,KHM,116,Adjusted net attendance rate for adolescents of lower secondary school age,2014,50.400002,Total,,%,,,,Total
+Cameroon,CM,CMR,120,Adjusted net attendance rate for adolescents of lower secondary school age,2018,53.229649,Female,,%,,,,Total
+Cameroon,CM,CMR,120,Adjusted net attendance rate for adolescents of lower secondary school age,2018,51.534161,Male,,%,,,,Total
+Cameroon,CM,CMR,120,Adjusted net attendance rate for adolescents of lower secondary school age,2018,52.398941,Total,,%,,,,Total
+Central African Republic,CF,CAF,140,Adjusted net attendance rate for adolescents of lower secondary school age,2019,12.57105,Female,,%,,,,Total
+Central African Republic,CF,CAF,140,Adjusted net attendance rate for adolescents of lower secondary school age,2019,14.03295,Male,,%,,,,Total
+Central African Republic,CF,CAF,140,Adjusted net attendance rate for adolescents of lower secondary school age,2019,13.31035,Total,,%,,,,Total
+Chad,TD,TCD,148,Adjusted net attendance rate for adolescents of lower secondary school age,2019,11.97575,Female,,%,,,,Total
+Chad,TD,TCD,148,Adjusted net attendance rate for adolescents of lower secondary school age,2019,16.600031,Male,,%,,,,Total
+Chad,TD,TCD,148,Adjusted net attendance rate for adolescents of lower secondary school age,2019,14.32042,Total,,%,,,,Total
+Chile,CL,CHL,152,Adjusted net attendance rate for adolescents of lower secondary school age,2017,60.799999,Female,,%,,,,Total
+Chile,CL,CHL,152,Adjusted net attendance rate for adolescents of lower secondary school age,2017,58.799999,Male,,%,,,,Total
+Chile,CL,CHL,152,Adjusted net attendance rate for adolescents of lower secondary school age,2017,59.799999,Total,,%,,,,Total
+China,CN,CHN,156,Adjusted net attendance rate for adolescents of lower secondary school age,2015,73.800003,Female,,%,,,,Total
+China,CN,CHN,156,Adjusted net attendance rate for adolescents of lower secondary school age,2015,72.800003,Male,,%,,,,Total
+China,CN,CHN,156,Adjusted net attendance rate for adolescents of lower secondary school age,2015,73.300003,Total,,%,,,,Total
+Colombia,CO,COL,170,Adjusted net attendance rate for adolescents of lower secondary school age,2015,80.900002,Female,,%,,,,Total
+Colombia,CO,COL,170,Adjusted net attendance rate for adolescents of lower secondary school age,2015,73.800003,Male,,%,,,,Total
+Colombia,CO,COL,170,Adjusted net attendance rate for adolescents of lower secondary school age,2015,77.300003,Total,,%,,,,Total
+Comoros,KM,COM,174,Adjusted net attendance rate for adolescents of lower secondary school age,2012,52.299999,Female,,%,,,,Total
+Comoros,KM,COM,174,Adjusted net attendance rate for adolescents of lower secondary school age,2012,44.700001,Male,,%,,,,Total
+Comoros,KM,COM,174,Adjusted net attendance rate for adolescents of lower secondary school age,2012,48.5,Total,,%,,,,Total
+Congo,CG,COG,178,Adjusted net attendance rate for adolescents of lower secondary school age,2015,67.185852,Female,,%,,,,Total
+Congo,CG,COG,178,Adjusted net attendance rate for adolescents of lower secondary school age,2015,62.155731,Male,,%,,,,Total
+Congo,CG,COG,178,Adjusted net attendance rate for adolescents of lower secondary school age,2015,64.672989,Total,,%,,,,Total
+Costa Rica,CR,CRI,188,Adjusted net attendance rate for adolescents of lower secondary school age,2018,79.374847,Female,,%,,,,Total
+Costa Rica,CR,CRI,188,Adjusted net attendance rate for adolescents of lower secondary school age,2018,79.785591,Male,,%,,,,Total
+Costa Rica,CR,CRI,188,Adjusted net attendance rate for adolescents of lower secondary school age,2018,79.595047,Total,,%,,,,Total
+Cuba,CU,CUB,192,Adjusted net attendance rate for adolescents of lower secondary school age,2019,95.723412,Female,,%,,,,Total
+Cuba,CU,CUB,192,Adjusted net attendance rate for adolescents of lower secondary school age,2019,93.722,Male,,%,,,,Total
+Cuba,CU,CUB,192,Adjusted net attendance rate for adolescents of lower secondary school age,2019,94.620277,Total,,%,,,,Total
+Ivory Coast,CI,CIV,384,Adjusted net attendance rate for adolescents of lower secondary school age,2016,37.553391,Female,,%,,,,Total
+Ivory Coast,CI,CIV,384,Adjusted net attendance rate for adolescents of lower secondary school age,2016,42.827068,Male,,%,,,,Total
+Ivory Coast,CI,CIV,384,Adjusted net attendance rate for adolescents of lower secondary school age,2016,40.25758,Total,,%,,,,Total
+"Korea, Democratic People's Republic of",KP,PRK,408,Adjusted net attendance rate for adolescents of lower secondary school age,2017,94.400002,Female,,%,,,,Total
+"Korea, Democratic People's Republic of",KP,PRK,408,Adjusted net attendance rate for adolescents of lower secondary school age,2017,97.800003,Male,,%,,,,Total
+"Korea, Democratic People's Republic of",KP,PRK,408,Adjusted net attendance rate for adolescents of lower secondary school age,2017,96.099998,Total,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Adjusted net attendance rate for adolescents of lower secondary school age,2018,31.482031,Female,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Adjusted net attendance rate for adolescents of lower secondary school age,2018,32.45105,Male,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Adjusted net attendance rate for adolescents of lower secondary school age,2018,31.965599,Total,,%,,,,Total
+Dominican Republic,DO,DOM,214,Adjusted net attendance rate for adolescents of lower secondary school age,2019,85.765442,Female,,%,,,,Total
+Dominican Republic,DO,DOM,214,Adjusted net attendance rate for adolescents of lower secondary school age,2019,73.707832,Male,,%,,,,Total
+Dominican Republic,DO,DOM,214,Adjusted net attendance rate for adolescents of lower secondary school age,2019,79.689911,Total,,%,,,,Total
+Ecuador,EC,ECU,218,Adjusted net attendance rate for adolescents of lower secondary school age,2019,85.900002,Female,,%,,,,Total
+Ecuador,EC,ECU,218,Adjusted net attendance rate for adolescents of lower secondary school age,2019,81,Male,,%,,,,Total
+Ecuador,EC,ECU,218,Adjusted net attendance rate for adolescents of lower secondary school age,2019,83.400002,Total,,%,,,,Total
+Egypt,EG,EGY,818,Adjusted net attendance rate for adolescents of lower secondary school age,2014,85.5,Female,,%,,,,Total
+Egypt,EG,EGY,818,Adjusted net attendance rate for adolescents of lower secondary school age,2014,84.300003,Male,,%,,,,Total
+Egypt,EG,EGY,818,Adjusted net attendance rate for adolescents of lower secondary school age,2014,84.900002,Total,,%,,,,Total
+El Salvador,SV,SLV,222,Adjusted net attendance rate for adolescents of lower secondary school age,2014,73.199997,Female,,%,,,,Total
+El Salvador,SV,SLV,222,Adjusted net attendance rate for adolescents of lower secondary school age,2014,68.800003,Male,,%,,,,Total
+El Salvador,SV,SLV,222,Adjusted net attendance rate for adolescents of lower secondary school age,2014,71,Total,,%,,,,Total
+Eritrea,ER,ERI,232,Adjusted net attendance rate for adolescents of lower secondary school age,2010,54.799999,Female,,%,,,,Total
+Eritrea,ER,ERI,232,Adjusted net attendance rate for adolescents of lower secondary school age,2010,63.200001,Male,,%,,,,Total
+Eritrea,ER,ERI,232,Adjusted net attendance rate for adolescents of lower secondary school age,2010,59.099998,Total,,%,,,,Total
+Ethiopia,ET,ETH,231,Adjusted net attendance rate for adolescents of lower secondary school age,2016,29.32229,Female,,%,,,,Total
+Ethiopia,ET,ETH,231,Adjusted net attendance rate for adolescents of lower secondary school age,2016,25.19812,Male,,%,,,,Total
+Ethiopia,ET,ETH,231,Adjusted net attendance rate for adolescents of lower secondary school age,2016,27.211821,Total,,%,,,,Total
+Gabon,GA,GAB,266,Adjusted net attendance rate for adolescents of lower secondary school age,2012,58.5,Female,,%,,,,Total
+Gabon,GA,GAB,266,Adjusted net attendance rate for adolescents of lower secondary school age,2012,50.599998,Male,,%,,,,Total
+Gabon,GA,GAB,266,Adjusted net attendance rate for adolescents of lower secondary school age,2012,54.799999,Total,,%,,,,Total
+Gambia,GM,GMB,270,Adjusted net attendance rate for adolescents of lower secondary school age,2018,49.700001,Female,,%,,,,Total
+Gambia,GM,GMB,270,Adjusted net attendance rate for adolescents of lower secondary school age,2018,38.200001,Male,,%,,,,Total
+Gambia,GM,GMB,270,Adjusted net attendance rate for adolescents of lower secondary school age,2018,44.200001,Total,,%,,,,Total
+Georgia,GE,GEO,268,Adjusted net attendance rate for adolescents of lower secondary school age,2018,95.994034,Female,,%,,,,Total
+Georgia,GE,GEO,268,Adjusted net attendance rate for adolescents of lower secondary school age,2018,96.067482,Male,,%,,,,Total
+Georgia,GE,GEO,268,Adjusted net attendance rate for adolescents of lower secondary school age,2018,96,Total,,%,,,,Total
+Ghana,GH,GHA,288,Adjusted net attendance rate for adolescents of lower secondary school age,2018,44.05172,Female,,%,,,,Total
+Ghana,GH,GHA,288,Adjusted net attendance rate for adolescents of lower secondary school age,2018,37.62891,Male,,%,,,,Total
+Ghana,GH,GHA,288,Adjusted net attendance rate for adolescents of lower secondary school age,2018,40.93626,Total,,%,,,,Total
+Guatemala,GT,GTM,320,Adjusted net attendance rate for adolescents of lower secondary school age,2015,49.5,Female,,%,,,,Total
+Guatemala,GT,GTM,320,Adjusted net attendance rate for adolescents of lower secondary school age,2015,54.200001,Male,,%,,,,Total
+Guatemala,GT,GTM,320,Adjusted net attendance rate for adolescents of lower secondary school age,2015,51.799999,Total,,%,,,,Total
+Guinea,GN,GIN,324,Adjusted net attendance rate for adolescents of lower secondary school age,2018,28.97826,Female,,%,,,,Total
+Guinea,GN,GIN,324,Adjusted net attendance rate for adolescents of lower secondary school age,2018,35.106579,Male,,%,,,,Total
+Guinea,GN,GIN,324,Adjusted net attendance rate for adolescents of lower secondary school age,2018,31.911381,Total,,%,,,,Total
+Guinea-Bissau,GW,GNB,624,Adjusted net attendance rate for adolescents of lower secondary school age,2019,8.8714561,Female,,%,,,,Total
+Guinea-Bissau,GW,GNB,624,Adjusted net attendance rate for adolescents of lower secondary school age,2019,10.28783,Male,,%,,,,Total
+Guinea-Bissau,GW,GNB,624,Adjusted net attendance rate for adolescents of lower secondary school age,2019,9.5710955,Total,,%,,,,Total
+Guyana,GY,GUY,328,Adjusted net attendance rate for adolescents of lower secondary school age,2020,91.860619,Female,,%,,,,Total
+Guyana,GY,GUY,328,Adjusted net attendance rate for adolescents of lower secondary school age,2020,88.286102,Male,,%,,,,Total
+Guyana,GY,GUY,328,Adjusted net attendance rate for adolescents of lower secondary school age,2020,89.986519,Total,,%,,,,Total
+Haiti,HT,HTI,332,Adjusted net attendance rate for adolescents of lower secondary school age,2017,34.62418,Female,,%,,,,Total
+Haiti,HT,HTI,332,Adjusted net attendance rate for adolescents of lower secondary school age,2017,22.88789,Male,,%,,,,Total
+Haiti,HT,HTI,332,Adjusted net attendance rate for adolescents of lower secondary school age,2017,28.422279,Total,,%,,,,Total
+Honduras,HN,HND,340,Adjusted net attendance rate for adolescents of lower secondary school age,2019,64.631287,Female,,%,,,,Total
+Honduras,HN,HND,340,Adjusted net attendance rate for adolescents of lower secondary school age,2019,55.343311,Male,,%,,,,Total
+Honduras,HN,HND,340,Adjusted net attendance rate for adolescents of lower secondary school age,2019,59.896961,Total,,%,,,,Total
+India,IN,IND,356,Adjusted net attendance rate for adolescents of lower secondary school age,2016,80.5,Female,,%,,,,Total
+India,IN,IND,356,Adjusted net attendance rate for adolescents of lower secondary school age,2016,79.699997,Male,,%,,,,Total
+India,IN,IND,356,Adjusted net attendance rate for adolescents of lower secondary school age,2016,80.099998,Total,,%,,,,Total
+Indonesia,ID,IDN,360,Adjusted net attendance rate for adolescents of lower secondary school age,2017,90.76429,Female,,%,,,,Total
+Indonesia,ID,IDN,360,Adjusted net attendance rate for adolescents of lower secondary school age,2017,87.749657,Male,,%,,,,Total
+Indonesia,ID,IDN,360,Adjusted net attendance rate for adolescents of lower secondary school age,2017,89.218353,Total,,%,,,,Total
+Iraq,IQ,IRQ,368,Adjusted net attendance rate for adolescents of lower secondary school age,2018,57.5,Female,,%,,,,Total
+Iraq,IQ,IRQ,368,Adjusted net attendance rate for adolescents of lower secondary school age,2018,57.5,Male,,%,,,,Total
+Iraq,IQ,IRQ,368,Adjusted net attendance rate for adolescents of lower secondary school age,2018,57.5,Total,,%,,,,Total
+Jamaica,JM,JAM,388,Adjusted net attendance rate for adolescents of lower secondary school age,2011,91.900002,Female,,%,,,,Total
+Jamaica,JM,JAM,388,Adjusted net attendance rate for adolescents of lower secondary school age,2011,92,Male,,%,,,,Total
+Jamaica,JM,JAM,388,Adjusted net attendance rate for adolescents of lower secondary school age,2011,92,Total,,%,,,,Total
+Jordan,JO,JOR,400,Adjusted net attendance rate for adolescents of lower secondary school age,2018,89.587936,Female,,%,,,,Total
+Jordan,JO,JOR,400,Adjusted net attendance rate for adolescents of lower secondary school age,2018,88.602997,Male,,%,,,,Total
+Jordan,JO,JOR,400,Adjusted net attendance rate for adolescents of lower secondary school age,2018,89.080589,Total,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Adjusted net attendance rate for adolescents of lower secondary school age,2015,99.5,Female,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Adjusted net attendance rate for adolescents of lower secondary school age,2015,99.400002,Male,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Adjusted net attendance rate for adolescents of lower secondary school age,2015,99.400002,Total,,%,,,,Total
+Kenya,KE,KEN,404,Adjusted net attendance rate for adolescents of lower secondary school age,2014,46.299999,Female,,%,,,,Total
+Kenya,KE,KEN,404,Adjusted net attendance rate for adolescents of lower secondary school age,2014,38.200001,Male,,%,,,,Total
+Kenya,KE,KEN,404,Adjusted net attendance rate for adolescents of lower secondary school age,2014,42.200001,Total,,%,,,,Total
+Kiribati,KI,KIR,296,Adjusted net attendance rate for adolescents of lower secondary school age,2019,88.312363,Female,,%,,,,Total
+Kiribati,KI,KIR,296,Adjusted net attendance rate for adolescents of lower secondary school age,2019,74.590218,Male,,%,,,,Total
+Kiribati,KI,KIR,296,Adjusted net attendance rate for adolescents of lower secondary school age,2019,81.019676,Total,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Adjusted net attendance rate for adolescents of lower secondary school age,2018,97.400002,Female,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Adjusted net attendance rate for adolescents of lower secondary school age,2018,96.5,Male,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Adjusted net attendance rate for adolescents of lower secondary school age,2018,96.900002,Total,,%,,,,Total
+Lao People's Democratic Republic,LA,LAO,418,Adjusted net attendance rate for adolescents of lower secondary school age,2017,61.5,Female,,%,,,,Total
+Lao People's Democratic Republic,LA,LAO,418,Adjusted net attendance rate for adolescents of lower secondary school age,2017,59.400002,Male,,%,,,,Total
+Lao People's Democratic Republic,LA,LAO,418,Adjusted net attendance rate for adolescents of lower secondary school age,2017,60.5,Total,,%,,,,Total
+Lesotho,LS,LSO,426,Adjusted net attendance rate for adolescents of lower secondary school age,2018,66.900002,Female,,%,,,,Total
+Lesotho,LS,LSO,426,Adjusted net attendance rate for adolescents of lower secondary school age,2018,42.299999,Male,,%,,,,Total
+Lesotho,LS,LSO,426,Adjusted net attendance rate for adolescents of lower secondary school age,2018,54.5,Total,,%,,,,Total
+Liberia,LR,LBR,430,Adjusted net attendance rate for adolescents of lower secondary school age,2013,14.6,Female,,%,,,,Total
+Liberia,LR,LBR,430,Adjusted net attendance rate for adolescents of lower secondary school age,2013,13.6,Male,,%,,,,Total
+Liberia,LR,LBR,430,Adjusted net attendance rate for adolescents of lower secondary school age,2013,14.1,Total,,%,,,,Total
+Madagascar,MG,MDG,450,Adjusted net attendance rate for adolescents of lower secondary school age,2018,31.5,Female,,%,,,,Total
+Madagascar,MG,MDG,450,Adjusted net attendance rate for adolescents of lower secondary school age,2018,23,Male,,%,,,,Total
+Madagascar,MG,MDG,450,Adjusted net attendance rate for adolescents of lower secondary school age,2018,27.200001,Total,,%,,,,Total
+Malawi,MW,MWI,454,Adjusted net attendance rate for adolescents of lower secondary school age,2016,30.799999,Female,,%,,,,Total
+Malawi,MW,MWI,454,Adjusted net attendance rate for adolescents of lower secondary school age,2016,25.200001,Male,,%,,,,Total
+Malawi,MW,MWI,454,Adjusted net attendance rate for adolescents of lower secondary school age,2016,28,Total,,%,,,,Total
+Maldives,MV,MDV,462,Adjusted net attendance rate for adolescents of lower secondary school age,2017,85.5,Female,,%,,,,Total
+Maldives,MV,MDV,462,Adjusted net attendance rate for adolescents of lower secondary school age,2017,82,Male,,%,,,,Total
+Maldives,MV,MDV,462,Adjusted net attendance rate for adolescents of lower secondary school age,2017,83.699997,Total,,%,,,,Total
+Mali,ML,MLI,466,Adjusted net attendance rate for adolescents of lower secondary school age,2015,30.4,Female,,%,,,,Total
+Mali,ML,MLI,466,Adjusted net attendance rate for adolescents of lower secondary school age,2015,36.299999,Male,,%,,,,Total
+Mali,ML,MLI,466,Adjusted net attendance rate for adolescents of lower secondary school age,2015,33.5,Total,,%,,,,Total
+Mauritania,MR,MRT,478,Adjusted net attendance rate for adolescents of lower secondary school age,2015,26.90686,Female,,%,,,,Total
+Mauritania,MR,MRT,478,Adjusted net attendance rate for adolescents of lower secondary school age,2015,30.258141,Male,,%,,,,Total
+Mauritania,MR,MRT,478,Adjusted net attendance rate for adolescents of lower secondary school age,2015,28.518311,Total,,%,,,,Total
+Mexico,MX,MEX,484,Adjusted net attendance rate for adolescents of lower secondary school age,2018,90.599998,Female,,%,,,,Total
+Mexico,MX,MEX,484,Adjusted net attendance rate for adolescents of lower secondary school age,2018,88.599998,Male,,%,,,,Total
+Mexico,MX,MEX,484,Adjusted net attendance rate for adolescents of lower secondary school age,2018,89.5,Total,,%,,,,Total
+Mongolia,MN,MNG,496,Adjusted net attendance rate for adolescents of lower secondary school age,2018,94.300003,Female,,%,,,,Total
+Mongolia,MN,MNG,496,Adjusted net attendance rate for adolescents of lower secondary school age,2018,91.900002,Male,,%,,,,Total
+Mongolia,MN,MNG,496,Adjusted net attendance rate for adolescents of lower secondary school age,2018,93,Total,,%,,,,Total
+Montenegro,ME,MNE,499,Adjusted net attendance rate for adolescents of lower secondary school age,2018,95.85968,Female,,%,,,,Total
+Montenegro,ME,MNE,499,Adjusted net attendance rate for adolescents of lower secondary school age,2018,91.002586,Male,,%,,,,Total
+Montenegro,ME,MNE,499,Adjusted net attendance rate for adolescents of lower secondary school age,2018,93.219353,Total,,%,,,,Total
+Mozambique,MZ,MOZ,508,Adjusted net attendance rate for adolescents of lower secondary school age,2011,16.6,Female,,%,,,,Total
+Mozambique,MZ,MOZ,508,Adjusted net attendance rate for adolescents of lower secondary school age,2011,15.1,Male,,%,,,,Total
+Mozambique,MZ,MOZ,508,Adjusted net attendance rate for adolescents of lower secondary school age,2011,15.8,Total,,%,,,,Total
+Myanmar,MM,MMR,104,Adjusted net attendance rate for adolescents of lower secondary school age,2016,71,Female,,%,,,,Total
+Myanmar,MM,MMR,104,Adjusted net attendance rate for adolescents of lower secondary school age,2016,66.900002,Male,,%,,,,Total
+Myanmar,MM,MMR,104,Adjusted net attendance rate for adolescents of lower secondary school age,2016,69,Total,,%,,,,Total
+Namibia,,NAM,516,Adjusted net attendance rate for adolescents of lower secondary school age,2013,67.400002,Female,,%,,,,Total
+Namibia,,NAM,516,Adjusted net attendance rate for adolescents of lower secondary school age,2013,53.5,Male,,%,,,,Total
+Namibia,,NAM,516,Adjusted net attendance rate for adolescents of lower secondary school age,2013,60.299999,Total,,%,,,,Total
+Nepal,NP,NPL,524,Adjusted net attendance rate for adolescents of lower secondary school age,2019,54.70591,Female,,%,,,,Total
+Nepal,NP,NPL,524,Adjusted net attendance rate for adolescents of lower secondary school age,2019,45.86108,Male,,%,,,,Total
+Nepal,NP,NPL,524,Adjusted net attendance rate for adolescents of lower secondary school age,2019,50.266861,Total,,%,,,,Total
+Niger,NE,NER,562,Adjusted net attendance rate for adolescents of lower secondary school age,2012,16.799999,Female,,%,,,,Total
+Niger,NE,NER,562,Adjusted net attendance rate for adolescents of lower secondary school age,2012,21.4,Male,,%,,,,Total
+Niger,NE,NER,562,Adjusted net attendance rate for adolescents of lower secondary school age,2012,19.299999,Total,,%,,,,Total
+Nigeria,NG,NGA,566,Adjusted net attendance rate for adolescents of lower secondary school age,2018,44.900002,Female,,%,,,,Total
+Nigeria,NG,NGA,566,Adjusted net attendance rate for adolescents of lower secondary school age,2018,44.700001,Male,,%,,,,Total
+Nigeria,NG,NGA,566,Adjusted net attendance rate for adolescents of lower secondary school age,2018,44.799999,Total,,%,,,,Total
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Adjusted net attendance rate for adolescents of lower secondary school age,2019,96.220612,Female,,%,,,,Total
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Adjusted net attendance rate for adolescents of lower secondary school age,2019,98.181107,Male,,%,,,,Total
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Adjusted net attendance rate for adolescents of lower secondary school age,2019,97.18486,Total,,%,,,,Total
+Pakistan,PK,PAK,586,Adjusted net attendance rate for adolescents of lower secondary school age,2018,32.670261,Female,,%,,,,Total
+Pakistan,PK,PAK,586,Adjusted net attendance rate for adolescents of lower secondary school age,2018,33.680271,Male,,%,,,,Total
+Pakistan,PK,PAK,586,Adjusted net attendance rate for adolescents of lower secondary school age,2018,33.165501,Total,,%,,,,Total
+Panama,PA,PAN,591,Adjusted net attendance rate for adolescents of lower secondary school age,2013,86.400002,Female,,%,,,,Total
+Panama,PA,PAN,591,Adjusted net attendance rate for adolescents of lower secondary school age,2013,78.199997,Male,,%,,,,Total
+Panama,PA,PAN,591,Adjusted net attendance rate for adolescents of lower secondary school age,2013,82,Total,,%,,,,Total
+Paraguay,PY,PRY,600,Adjusted net attendance rate for adolescents of lower secondary school age,2017,83.699997,Female,,%,,,,Total
+Paraguay,PY,PRY,600,Adjusted net attendance rate for adolescents of lower secondary school age,2017,75.599998,Male,,%,,,,Total
+Paraguay,PY,PRY,600,Adjusted net attendance rate for adolescents of lower secondary school age,2017,79.400002,Total,,%,,,,Total
+Peru,PE,PER,604,Adjusted net attendance rate for adolescents of lower secondary school age,2012,86.5,Female,,%,,,,Total
+Peru,PE,PER,604,Adjusted net attendance rate for adolescents of lower secondary school age,2012,85.099998,Male,,%,,,,Total
+Peru,PE,PER,604,Adjusted net attendance rate for adolescents of lower secondary school age,2012,85.800003,Total,,%,,,,Total
+Philippines,PH,PHL,608,Adjusted net attendance rate for adolescents of lower secondary school age,2017,78.12693,Female,,%,,,,Total
+Philippines,PH,PHL,608,Adjusted net attendance rate for adolescents of lower secondary school age,2017,70.472939,Male,,%,,,,Total
+Philippines,PH,PHL,608,Adjusted net attendance rate for adolescents of lower secondary school age,2017,74.142227,Total,,%,,,,Total
+Qatar,QA,QAT,634,Adjusted net attendance rate for adolescents of lower secondary school age,2012,93.069489,Female,,%,,,,Total
+Qatar,QA,QAT,634,Adjusted net attendance rate for adolescents of lower secondary school age,2012,93.6847,Male,,%,,,,Total
+Qatar,QA,QAT,634,Adjusted net attendance rate for adolescents of lower secondary school age,2012,93.416656,Total,,%,,,,Total
+"Moldova, Republic of",MD,MDA,498,Adjusted net attendance rate for adolescents of lower secondary school age,2012,97.099998,Female,,%,,,,Total
+"Moldova, Republic of",MD,MDA,498,Adjusted net attendance rate for adolescents of lower secondary school age,2012,95.5,Male,,%,,,,Total
+"Moldova, Republic of",MD,MDA,498,Adjusted net attendance rate for adolescents of lower secondary school age,2012,96.300003,Total,,%,,,,Total
+Romania,RO,ROU,642,Adjusted net attendance rate for adolescents of lower secondary school age,2016,89.760002,Female,,%,,,,Total
+Romania,RO,ROU,642,Adjusted net attendance rate for adolescents of lower secondary school age,2016,90.300003,Male,,%,,,,Total
+Romania,RO,ROU,642,Adjusted net attendance rate for adolescents of lower secondary school age,2016,90.040001,Total,,%,,,,Total
+Rwanda,RW,RWA,646,Adjusted net attendance rate for adolescents of lower secondary school age,2015,33.900002,Female,,%,,,,Total
+Rwanda,RW,RWA,646,Adjusted net attendance rate for adolescents of lower secondary school age,2015,25.299999,Male,,%,,,,Total
+Rwanda,RW,RWA,646,Adjusted net attendance rate for adolescents of lower secondary school age,2015,29.6,Total,,%,,,,Total
+Saint Lucia,LC,LCA,662,Adjusted net attendance rate for adolescents of lower secondary school age,2012,90.400002,Female,,%,,,,Total
+Saint Lucia,LC,LCA,662,Adjusted net attendance rate for adolescents of lower secondary school age,2012,95.400002,Male,,%,,,,Total
+Saint Lucia,LC,LCA,662,Adjusted net attendance rate for adolescents of lower secondary school age,2012,92.900002,Total,,%,,,,Total
+Samoa,WS,WSM,882,Adjusted net attendance rate for adolescents of lower secondary school age,2020,82.887947,Female,,%,,,,Total
+Samoa,WS,WSM,882,Adjusted net attendance rate for adolescents of lower secondary school age,2020,78.567467,Male,,%,,,,Total
+Samoa,WS,WSM,882,Adjusted net attendance rate for adolescents of lower secondary school age,2020,80.542908,Total,,%,,,,Total
+Sao Tome and Principe,ST,STP,678,Adjusted net attendance rate for adolescents of lower secondary school age,2019,60.51276,Female,,%,,,,Total
+Sao Tome and Principe,ST,STP,678,Adjusted net attendance rate for adolescents of lower secondary school age,2019,50.317669,Male,,%,,,,Total
+Sao Tome and Principe,ST,STP,678,Adjusted net attendance rate for adolescents of lower secondary school age,2019,55.32164,Total,,%,,,,Total
+Senegal,SN,SEN,686,Adjusted net attendance rate for adolescents of lower secondary school age,2019,32.543831,Female,,%,,,,Total
+Senegal,SN,SEN,686,Adjusted net attendance rate for adolescents of lower secondary school age,2019,29.37299,Male,,%,,,,Total
+Senegal,SN,SEN,686,Adjusted net attendance rate for adolescents of lower secondary school age,2019,31.007021,Total,,%,,,,Total
+Serbia,RS,SRB,688,Adjusted net attendance rate for adolescents of lower secondary school age,2019,98.119919,Female,,%,,,,Total
+Serbia,RS,SRB,688,Adjusted net attendance rate for adolescents of lower secondary school age,2019,99.008003,Male,,%,,,,Total
+Serbia,RS,SRB,688,Adjusted net attendance rate for adolescents of lower secondary school age,2019,98.616203,Total,,%,,,,Total
+Sierra Leone,SL,SLE,694,Adjusted net attendance rate for adolescents of lower secondary school age,2017,36.299999,Female,,%,,,,Total
+Sierra Leone,SL,SLE,694,Adjusted net attendance rate for adolescents of lower secondary school age,2017,36.200001,Male,,%,,,,Total
+Sierra Leone,SL,SLE,694,Adjusted net attendance rate for adolescents of lower secondary school age,2017,36.200001,Total,,%,,,,Total
+South Africa,ZA,ZAF,710,Adjusted net attendance rate for adolescents of lower secondary school age,2016,88.811882,Female,,%,,,,Total
+South Africa,ZA,ZAF,710,Adjusted net attendance rate for adolescents of lower secondary school age,2016,81.629356,Male,,%,,,,Total
+South Africa,ZA,ZAF,710,Adjusted net attendance rate for adolescents of lower secondary school age,2016,85.188957,Total,,%,,,,Total
+South Sudan,SS,SSD,728,Adjusted net attendance rate for adolescents of lower secondary school age,2010,3.0999999,Female,,%,,,,Total
+South Sudan,SS,SSD,728,Adjusted net attendance rate for adolescents of lower secondary school age,2010,6.1999998,Male,,%,,,,Total
+South Sudan,SS,SSD,728,Adjusted net attendance rate for adolescents of lower secondary school age,2010,4.6999998,Total,,%,,,,Total
+Sri Lanka,LK,LKA,144,Adjusted net attendance rate for adolescents of lower secondary school age,2016,92.290497,Female,,%,,,,Total
+Sri Lanka,LK,LKA,144,Adjusted net attendance rate for adolescents of lower secondary school age,2016,92.575089,Male,,%,,,,Total
+Sri Lanka,LK,LKA,144,Adjusted net attendance rate for adolescents of lower secondary school age,2016,92.432388,Total,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Adjusted net attendance rate for adolescents of lower secondary school age,2020,97.205688,Female,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Adjusted net attendance rate for adolescents of lower secondary school age,2020,92.956192,Male,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Adjusted net attendance rate for adolescents of lower secondary school age,2020,95.050049,Total,,%,,,,Total
+Sudan,SD,SDN,736,Adjusted net attendance rate for adolescents of lower secondary school age,2014,32,Female,,%,,,,Total
+Sudan,SD,SDN,736,Adjusted net attendance rate for adolescents of lower secondary school age,2014,30.5,Male,,%,,,,Total
+Sudan,SD,SDN,736,Adjusted net attendance rate for adolescents of lower secondary school age,2014,31.200001,Total,,%,,,,Total
+Suriname,SR,SUR,740,Adjusted net attendance rate for adolescents of lower secondary school age,2018,69,Female,,%,,,,Total
+Suriname,SR,SUR,740,Adjusted net attendance rate for adolescents of lower secondary school age,2018,55.599998,Male,,%,,,,Total
+Suriname,SR,SUR,740,Adjusted net attendance rate for adolescents of lower secondary school age,2018,62.400002,Total,,%,,,,Total
+Tajikistan,TJ,TJK,762,Adjusted net attendance rate for adolescents of lower secondary school age,2017,96.298447,Female,,%,,,,Total
+Tajikistan,TJ,TJK,762,Adjusted net attendance rate for adolescents of lower secondary school age,2017,97.957809,Male,,%,,,,Total
+Tajikistan,TJ,TJK,762,Adjusted net attendance rate for adolescents of lower secondary school age,2017,97.159416,Total,,%,,,,Total
+Thailand,TH,THA,764,Adjusted net attendance rate for adolescents of lower secondary school age,2019,89.912193,Female,,%,,,,Total
+Thailand,TH,THA,764,Adjusted net attendance rate for adolescents of lower secondary school age,2019,83.501762,Male,,%,,,,Total
+Thailand,TH,THA,764,Adjusted net attendance rate for adolescents of lower secondary school age,2019,86.723267,Total,,%,,,,Total
+Timor-Leste,TL,TLS,626,Adjusted net attendance rate for adolescents of lower secondary school age,2016,60.442032,Female,,%,,,,Total
+Timor-Leste,TL,TLS,626,Adjusted net attendance rate for adolescents of lower secondary school age,2016,47.927818,Male,,%,,,,Total
+Timor-Leste,TL,TLS,626,Adjusted net attendance rate for adolescents of lower secondary school age,2016,54.163811,Total,,%,,,,Total
+Togo,TG,TGO,768,Adjusted net attendance rate for adolescents of lower secondary school age,2017,50.47007,Female,,%,,,,Total
+Togo,TG,TGO,768,Adjusted net attendance rate for adolescents of lower secondary school age,2017,55.619999,Male,,%,,,,Total
+Togo,TG,TGO,768,Adjusted net attendance rate for adolescents of lower secondary school age,2017,53.065281,Total,,%,,,,Total
+Tonga,TO,TON,776,Adjusted net attendance rate for adolescents of lower secondary school age,2019,93.048927,Female,,%,,,,Total
+Tonga,TO,TON,776,Adjusted net attendance rate for adolescents of lower secondary school age,2019,86.332748,Male,,%,,,,Total
+Tonga,TO,TON,776,Adjusted net attendance rate for adolescents of lower secondary school age,2019,89.730003,Total,,%,,,,Total
+Tunisia,TN,TUN,788,Adjusted net attendance rate for adolescents of lower secondary school age,2018,85.099998,Female,,%,,,,Total
+Tunisia,TN,TUN,788,Adjusted net attendance rate for adolescents of lower secondary school age,2018,79.099998,Male,,%,,,,Total
+Tunisia,TN,TUN,788,Adjusted net attendance rate for adolescents of lower secondary school age,2018,82,Total,,%,,,,Total
+Turkmenistan,TM,TKM,795,Adjusted net attendance rate for adolescents of lower secondary school age,2019,96.984238,Female,,%,,,,Total
+Turkmenistan,TM,TKM,795,Adjusted net attendance rate for adolescents of lower secondary school age,2019,98.09185,Male,,%,,,,Total
+Turkmenistan,TM,TKM,795,Adjusted net attendance rate for adolescents of lower secondary school age,2019,97.542152,Total,,%,,,,Total
+Turks and Caicos Islands,TC,TCA,796,Adjusted net attendance rate for adolescents of lower secondary school age,2020,89.0662,Female,,%,,,,Total
+Turks and Caicos Islands,TC,TCA,796,Adjusted net attendance rate for adolescents of lower secondary school age,2020,95.866943,Male,,%,,,,Total
+Turks and Caicos Islands,TC,TCA,796,Adjusted net attendance rate for adolescents of lower secondary school age,2020,92.538727,Total,,%,,,,Total
+Tuvalu,TV,TUV,798,Adjusted net attendance rate for adolescents of lower secondary school age,2020,82.692078,Female,,%,,,,Total
+Tuvalu,TV,TUV,798,Adjusted net attendance rate for adolescents of lower secondary school age,2020,69.729523,Male,,%,,,,Total
+Tuvalu,TV,TUV,798,Adjusted net attendance rate for adolescents of lower secondary school age,2020,74.863762,Total,,%,,,,Total
+Uganda,UG,UGA,800,Adjusted net attendance rate for adolescents of lower secondary school age,2016,20.5,Female,,%,,,,Total
+Uganda,UG,UGA,800,Adjusted net attendance rate for adolescents of lower secondary school age,2016,18.200001,Male,,%,,,,Total
+Uganda,UG,UGA,800,Adjusted net attendance rate for adolescents of lower secondary school age,2016,19.4,Total,,%,,,,Total
+Ukraine,UA,UKR,804,Adjusted net attendance rate for adolescents of lower secondary school age,2012,98.300003,Female,,%,,,,Total
+Ukraine,UA,UKR,804,Adjusted net attendance rate for adolescents of lower secondary school age,2012,98.300003,Male,,%,,,,Total
+Ukraine,UA,UKR,804,Adjusted net attendance rate for adolescents of lower secondary school age,2012,98.300003,Total,,%,,,,Total
+"Tanzania, United Republic of",TZ,TZA,834,Adjusted net attendance rate for adolescents of lower secondary school age,2016,30.5,Female,,%,,,,Total
+"Tanzania, United Republic of",TZ,TZA,834,Adjusted net attendance rate for adolescents of lower secondary school age,2016,25,Male,,%,,,,Total
+"Tanzania, United Republic of",TZ,TZA,834,Adjusted net attendance rate for adolescents of lower secondary school age,2016,27.700001,Total,,%,,,,Total
+Uruguay,UY,URY,858,Adjusted net attendance rate for adolescents of lower secondary school age,2013,77,Female,,%,,,,Total
+Uruguay,UY,URY,858,Adjusted net attendance rate for adolescents of lower secondary school age,2013,74.800003,Male,,%,,,,Total
+Uruguay,UY,URY,858,Adjusted net attendance rate for adolescents of lower secondary school age,2013,76,Total,,%,,,,Total
+Viet Nam,VN,VNM,704,Adjusted net attendance rate for adolescents of lower secondary school age,2014,91.699997,Female,,%,,,,Total
+Viet Nam,VN,VNM,704,Adjusted net attendance rate for adolescents of lower secondary school age,2014,89.099998,Male,,%,,,,Total
+Viet Nam,VN,VNM,704,Adjusted net attendance rate for adolescents of lower secondary school age,2014,90.400002,Total,,%,,,,Total
+Yemen,YE,YEM,887,Adjusted net attendance rate for adolescents of lower secondary school age,2013,34.200001,Female,,%,,,,Total
+Yemen,YE,YEM,887,Adjusted net attendance rate for adolescents of lower secondary school age,2013,43.200001,Male,,%,,,,Total
+Yemen,YE,YEM,887,Adjusted net attendance rate for adolescents of lower secondary school age,2013,38.799999,Total,,%,,,,Total
+Zambia,ZM,ZMB,894,Adjusted net attendance rate for adolescents of lower secondary school age,2018,46.227489,Female,,%,,,,Total
+Zambia,ZM,ZMB,894,Adjusted net attendance rate for adolescents of lower secondary school age,2018,45.434551,Male,,%,,,,Total
+Zambia,ZM,ZMB,894,Adjusted net attendance rate for adolescents of lower secondary school age,2018,45.842289,Total,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Adjusted net attendance rate for adolescents of lower secondary school age,2019,59.700001,Female,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Adjusted net attendance rate for adolescents of lower secondary school age,2019,43.799999,Male,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Adjusted net attendance rate for adolescents of lower secondary school age,2019,51.700001,Total,,%,,,,Total

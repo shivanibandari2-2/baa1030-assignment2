@@ -1,0 +1,346 @@
+country,alpha_2_code,alpha_3_code,numeric_code,indicator,time_period,obs_value,sex,unit_multiplier,unit_of_measure,observation_status,observation_confidentaility,time_period_activity_related_to_when_the_data_are_collected,current_age
+Afghanistan,AF,AFG,4,Out-of-school rate for adolescents of lower secondary school age,2015,56.114071,Female,,%,,,,Total
+Afghanistan,AF,AFG,4,Out-of-school rate for adolescents of lower secondary school age,2015,25.355261,Male,,%,,,,Total
+Afghanistan,AF,AFG,4,Out-of-school rate for adolescents of lower secondary school age,2015,39.961262,Total,,%,,,,Total
+Albania,AL,ALB,8,Out-of-school rate for adolescents of lower secondary school age,2018,2.0999999,Female,,%,,,,Total
+Albania,AL,ALB,8,Out-of-school rate for adolescents of lower secondary school age,2018,2.2,Male,,%,,,,Total
+Albania,AL,ALB,8,Out-of-school rate for adolescents of lower secondary school age,2018,2.0999999,Total,,%,,,,Total
+Algeria,DZ,DZA,12,Out-of-school rate for adolescents of lower secondary school age,2020,4.2468548,Female,,%,,,,Total
+Algeria,DZ,DZA,12,Out-of-school rate for adolescents of lower secondary school age,2020,4.0125489,Male,,%,,,,Total
+Algeria,DZ,DZA,12,Out-of-school rate for adolescents of lower secondary school age,2020,4.1267591,Total,,%,,,,Total
+Angola,AO,AGO,24,Out-of-school rate for adolescents of lower secondary school age,2016,16.864519,Female,,%,,,,Total
+Angola,AO,AGO,24,Out-of-school rate for adolescents of lower secondary school age,2016,13.52667,Male,,%,,,,Total
+Angola,AO,AGO,24,Out-of-school rate for adolescents of lower secondary school age,2016,15.28392,Total,,%,,,,Total
+Argentina,AR,ARG,32,Out-of-school rate for adolescents of lower secondary school age,2020,1.06985,Female,,%,,,,Total
+Argentina,AR,ARG,32,Out-of-school rate for adolescents of lower secondary school age,2020,1.205076,Male,,%,,,,Total
+Argentina,AR,ARG,32,Out-of-school rate for adolescents of lower secondary school age,2020,1.1388741,Total,,%,,,,Total
+Armenia,AM,ARM,51,Out-of-school rate for adolescents of lower secondary school age,2016,0.89999998,Female,,%,,,,Total
+Armenia,AM,ARM,51,Out-of-school rate for adolescents of lower secondary school age,2016,0.69999999,Male,,%,,,,Total
+Armenia,AM,ARM,51,Out-of-school rate for adolescents of lower secondary school age,2016,0.80000001,Total,,%,,,,Total
+Bangladesh,BD,BGD,50,Out-of-school rate for adolescents of lower secondary school age,2019,8,Female,,%,,,,Total
+Bangladesh,BD,BGD,50,Out-of-school rate for adolescents of lower secondary school age,2019,17.9,Male,,%,,,,Total
+Bangladesh,BD,BGD,50,Out-of-school rate for adolescents of lower secondary school age,2019,13,Total,,%,,,,Total
+Barbados,BB,BRB,52,Out-of-school rate for adolescents of lower secondary school age,2012,1.220597,Female,,%,,,,Total
+Barbados,BB,BRB,52,Out-of-school rate for adolescents of lower secondary school age,2012,1.11885,Male,,%,,,,Total
+Barbados,BB,BRB,52,Out-of-school rate for adolescents of lower secondary school age,2012,1.175126,Total,,%,,,,Total
+Belarus,BY,BLR,112,Out-of-school rate for adolescents of lower secondary school age,2020,0.31680471,Female,,%,,,,Total
+Belarus,BY,BLR,112,Out-of-school rate for adolescents of lower secondary school age,2020,0,Male,,%,,,,Total
+Belarus,BY,BLR,112,Out-of-school rate for adolescents of lower secondary school age,2020,0.14797039,Total,,%,,,,Total
+Belize,BZ,BLZ,84,Out-of-school rate for adolescents of lower secondary school age,2016,8.5,Female,,%,,,,Total
+Belize,BZ,BLZ,84,Out-of-school rate for adolescents of lower secondary school age,2016,9.6999998,Male,,%,,,,Total
+Belize,BZ,BLZ,84,Out-of-school rate for adolescents of lower secondary school age,2016,9.1999998,Total,,%,,,,Total
+Benin,BJ,BEN,204,Out-of-school rate for adolescents of lower secondary school age,2018,46.799999,Female,,%,,,,Total
+Benin,BJ,BEN,204,Out-of-school rate for adolescents of lower secondary school age,2018,36.200001,Male,,%,,,,Total
+Benin,BJ,BEN,204,Out-of-school rate for adolescents of lower secondary school age,2018,41.400002,Total,,%,,,,Total
+Bhutan,BT,BTN,64,Out-of-school rate for adolescents of lower secondary school age,2010,18.359541,Female,,%,,,,Total
+Bhutan,BT,BTN,64,Out-of-school rate for adolescents of lower secondary school age,2010,20.152599,Male,,%,,,,Total
+Bhutan,BT,BTN,64,Out-of-school rate for adolescents of lower secondary school age,2010,19.222851,Total,,%,,,,Total
+Bolivia,BO,BOL,68,Out-of-school rate for adolescents of lower secondary school age,2016,4.1932659,Female,,%,,,,Total
+Bolivia,BO,BOL,68,Out-of-school rate for adolescents of lower secondary school age,2016,4.1562142,Male,,%,,,,Total
+Bolivia,BO,BOL,68,Out-of-school rate for adolescents of lower secondary school age,2016,4.174078,Total,,%,,,,Total
+Bosnia and Herzegovina,BA,BIH,70,Out-of-school rate for adolescents of lower secondary school age,2012,1.2,Female,,%,,,,Total
+Bosnia and Herzegovina,BA,BIH,70,Out-of-school rate for adolescents of lower secondary school age,2012,0.60000002,Male,,%,,,,Total
+Bosnia and Herzegovina,BA,BIH,70,Out-of-school rate for adolescents of lower secondary school age,2012,0.89999998,Total,,%,,,,Total
+Botswana,BW,BWA,72,Out-of-school rate for adolescents of lower secondary school age,2017,4.5,Female,,%,,,,Total
+Botswana,BW,BWA,72,Out-of-school rate for adolescents of lower secondary school age,2017,4,Male,,%,,,,Total
+Botswana,BW,BWA,72,Out-of-school rate for adolescents of lower secondary school age,2017,4.3000002,Total,,%,,,,Total
+Brazil,BR,BRA,76,Out-of-school rate for adolescents of lower secondary school age,2019,1.041109,Female,,%,,,,Total
+Brazil,BR,BRA,76,Out-of-school rate for adolescents of lower secondary school age,2019,0.96669507,Male,,%,,,,Total
+Brazil,BR,BRA,76,Out-of-school rate for adolescents of lower secondary school age,2019,1.002879,Total,,%,,,,Total
+Burkina Faso,BF,BFA,854,Out-of-school rate for adolescents of lower secondary school age,2010,58.5,Female,,%,,,,Total
+Burkina Faso,BF,BFA,854,Out-of-school rate for adolescents of lower secondary school age,2010,55.599998,Male,,%,,,,Total
+Burkina Faso,BF,BFA,854,Out-of-school rate for adolescents of lower secondary school age,2010,57,Total,,%,,,,Total
+Burundi,BI,BDI,108,Out-of-school rate for adolescents of lower secondary school age,2017,28.299999,Female,,%,,,,Total
+Burundi,BI,BDI,108,Out-of-school rate for adolescents of lower secondary school age,2017,30.5,Male,,%,,,,Total
+Burundi,BI,BDI,108,Out-of-school rate for adolescents of lower secondary school age,2017,29.4,Total,,%,,,,Total
+Cambodia,KH,KHM,116,Out-of-school rate for adolescents of lower secondary school age,2014,24.865891,Female,,%,,,,Total
+Cambodia,KH,KHM,116,Out-of-school rate for adolescents of lower secondary school age,2014,25.548189,Male,,%,,,,Total
+Cambodia,KH,KHM,116,Out-of-school rate for adolescents of lower secondary school age,2014,25.21611,Total,,%,,,,Total
+Cameroon,CM,CMR,120,Out-of-school rate for adolescents of lower secondary school age,2018,22.04649,Female,,%,,,,Total
+Cameroon,CM,CMR,120,Out-of-school rate for adolescents of lower secondary school age,2018,16.05212,Male,,%,,,,Total
+Cameroon,CM,CMR,120,Out-of-school rate for adolescents of lower secondary school age,2018,19.109541,Total,,%,,,,Total
+Central African Republic,CF,CAF,140,Out-of-school rate for adolescents of lower secondary school age,2019,30.182819,Female,,%,,,,Total
+Central African Republic,CF,CAF,140,Out-of-school rate for adolescents of lower secondary school age,2019,18.27257,Male,,%,,,,Total
+Central African Republic,CF,CAF,140,Out-of-school rate for adolescents of lower secondary school age,2019,24.15966,Total,,%,,,,Total
+Chad,TD,TCD,148,Out-of-school rate for adolescents of lower secondary school age,2019,58.047482,Female,,%,,,,Total
+Chad,TD,TCD,148,Out-of-school rate for adolescents of lower secondary school age,2019,47.218201,Male,,%,,,,Total
+Chad,TD,TCD,148,Out-of-school rate for adolescents of lower secondary school age,2019,52.556648,Total,,%,,,,Total
+Chile,CL,CHL,152,Out-of-school rate for adolescents of lower secondary school age,2017,0.60000002,Female,,%,,,,Total
+Chile,CL,CHL,152,Out-of-school rate for adolescents of lower secondary school age,2017,0.40000001,Male,,%,,,,Total
+Chile,CL,CHL,152,Out-of-school rate for adolescents of lower secondary school age,2017,0.5,Total,,%,,,,Total
+China,CN,CHN,156,Out-of-school rate for adolescents of lower secondary school age,2015,3.2,Female,,%,,,,Total
+China,CN,CHN,156,Out-of-school rate for adolescents of lower secondary school age,2015,3.4000001,Male,,%,,,,Total
+China,CN,CHN,156,Out-of-school rate for adolescents of lower secondary school age,2015,3.3,Total,,%,,,,Total
+Colombia,CO,COL,170,Out-of-school rate for adolescents of lower secondary school age,2015,2.8,Female,,%,,,,Total
+Colombia,CO,COL,170,Out-of-school rate for adolescents of lower secondary school age,2015,4.4000001,Male,,%,,,,Total
+Colombia,CO,COL,170,Out-of-school rate for adolescents of lower secondary school age,2015,3.5999999,Total,,%,,,,Total
+Comoros,KM,COM,174,Out-of-school rate for adolescents of lower secondary school age,2012,14.14954,Female,,%,,,,Total
+Comoros,KM,COM,174,Out-of-school rate for adolescents of lower secondary school age,2012,14.69316,Male,,%,,,,Total
+Comoros,KM,COM,174,Out-of-school rate for adolescents of lower secondary school age,2012,14.41523,Total,,%,,,,Total
+Congo,CG,COG,178,Out-of-school rate for adolescents of lower secondary school age,2015,7.7695389,Female,,%,,,,Total
+Congo,CG,COG,178,Out-of-school rate for adolescents of lower secondary school age,2015,6.0697331,Male,,%,,,,Total
+Congo,CG,COG,178,Out-of-school rate for adolescents of lower secondary school age,2015,6.9203768,Total,,%,,,,Total
+Costa Rica,CR,CRI,188,Out-of-school rate for adolescents of lower secondary school age,2018,2.8940561,Female,,%,,,,Total
+Costa Rica,CR,CRI,188,Out-of-school rate for adolescents of lower secondary school age,2018,2.322978,Male,,%,,,,Total
+Costa Rica,CR,CRI,188,Out-of-school rate for adolescents of lower secondary school age,2018,2.587903,Total,,%,,,,Total
+Cuba,CU,CUB,192,Out-of-school rate for adolescents of lower secondary school age,2019,1.593021,Female,,%,,,,Total
+Cuba,CU,CUB,192,Out-of-school rate for adolescents of lower secondary school age,2019,2.7560761,Male,,%,,,,Total
+Cuba,CU,CUB,192,Out-of-school rate for adolescents of lower secondary school age,2019,2.2340729,Total,,%,,,,Total
+Ivory Coast,CI,CIV,384,Out-of-school rate for adolescents of lower secondary school age,2016,38.119308,Female,,%,,,,Total
+Ivory Coast,CI,CIV,384,Out-of-school rate for adolescents of lower secondary school age,2016,27.22687,Male,,%,,,,Total
+Ivory Coast,CI,CIV,384,Out-of-school rate for adolescents of lower secondary school age,2016,32.53397,Total,,%,,,,Total
+"Korea, Democratic People's Republic of",KP,PRK,408,Out-of-school rate for adolescents of lower secondary school age,2017,0.30000001,Female,,%,,,,Total
+"Korea, Democratic People's Republic of",KP,PRK,408,Out-of-school rate for adolescents of lower secondary school age,2017,0,Male,,%,,,,Total
+"Korea, Democratic People's Republic of",KP,PRK,408,Out-of-school rate for adolescents of lower secondary school age,2017,0.2,Total,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Out-of-school rate for adolescents of lower secondary school age,2018,17.706129,Female,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Out-of-school rate for adolescents of lower secondary school age,2018,15.76399,Male,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Out-of-school rate for adolescents of lower secondary school age,2018,16.73694,Total,,%,,,,Total
+Dominican Republic,DO,DOM,214,Out-of-school rate for adolescents of lower secondary school age,2019,2.3194821,Female,,%,,,,Total
+Dominican Republic,DO,DOM,214,Out-of-school rate for adolescents of lower secondary school age,2019,4.3871341,Male,,%,,,,Total
+Dominican Republic,DO,DOM,214,Out-of-school rate for adolescents of lower secondary school age,2019,3.3613219,Total,,%,,,,Total
+Ecuador,EC,ECU,218,Out-of-school rate for adolescents of lower secondary school age,2019,5.4000001,Female,,%,,,,Total
+Ecuador,EC,ECU,218,Out-of-school rate for adolescents of lower secondary school age,2019,6.5999999,Male,,%,,,,Total
+Ecuador,EC,ECU,218,Out-of-school rate for adolescents of lower secondary school age,2019,6,Total,,%,,,,Total
+Egypt,EG,EGY,818,Out-of-school rate for adolescents of lower secondary school age,2014,10.32044,Female,,%,,,,Total
+Egypt,EG,EGY,818,Out-of-school rate for adolescents of lower secondary school age,2014,9.5404263,Male,,%,,,,Total
+Egypt,EG,EGY,818,Out-of-school rate for adolescents of lower secondary school age,2014,9.9147444,Total,,%,,,,Total
+El Salvador,SV,SLV,222,Out-of-school rate for adolescents of lower secondary school age,2014,15.2,Female,,%,,,,Total
+El Salvador,SV,SLV,222,Out-of-school rate for adolescents of lower secondary school age,2014,14.3,Male,,%,,,,Total
+El Salvador,SV,SLV,222,Out-of-school rate for adolescents of lower secondary school age,2014,14.8,Total,,%,,,,Total
+Swaziland,SZ,SWZ,748,Out-of-school rate for adolescents of lower secondary school age,2014,4.1999998,Female,,%,,,,Total
+Swaziland,SZ,SWZ,748,Out-of-school rate for adolescents of lower secondary school age,2014,4.6999998,Male,,%,,,,Total
+Swaziland,SZ,SWZ,748,Out-of-school rate for adolescents of lower secondary school age,2014,4.4000001,Total,,%,,,,Total
+Ethiopia,ET,ETH,231,Out-of-school rate for adolescents of lower secondary school age,2016,31.299999,Female,,%,,,,Total
+Ethiopia,ET,ETH,231,Out-of-school rate for adolescents of lower secondary school age,2016,30.200001,Male,,%,,,,Total
+Ethiopia,ET,ETH,231,Out-of-school rate for adolescents of lower secondary school age,2016,30.75,Total,,%,,,,Total
+Gabon,GA,GAB,266,Out-of-school rate for adolescents of lower secondary school age,2012,2.6874239,Female,,%,,,,Total
+Gabon,GA,GAB,266,Out-of-school rate for adolescents of lower secondary school age,2012,4.0560699,Male,,%,,,,Total
+Gabon,GA,GAB,266,Out-of-school rate for adolescents of lower secondary school age,2012,3.329736,Total,,%,,,,Total
+Gambia,GM,GMB,270,Out-of-school rate for adolescents of lower secondary school age,2013,35.340038,Female,,%,,,,Total
+Gambia,GM,GMB,270,Out-of-school rate for adolescents of lower secondary school age,2013,30.19516,Male,,%,,,,Total
+Gambia,GM,GMB,270,Out-of-school rate for adolescents of lower secondary school age,2013,32.913952,Total,,%,,,,Total
+Georgia,GE,GEO,268,Out-of-school rate for adolescents of lower secondary school age,2018,0.7833119,Female,,%,,,,Total
+Georgia,GE,GEO,268,Out-of-school rate for adolescents of lower secondary school age,2018,1.512432,Male,,%,,,,Total
+Georgia,GE,GEO,268,Out-of-school rate for adolescents of lower secondary school age,2018,1.2,Total,,%,,,,Total
+Ghana,GH,GHA,288,Out-of-school rate for adolescents of lower secondary school age,2018,6.4363341,Female,,%,,,,Total
+Ghana,GH,GHA,288,Out-of-school rate for adolescents of lower secondary school age,2018,7.7166529,Male,,%,,,,Total
+Ghana,GH,GHA,288,Out-of-school rate for adolescents of lower secondary school age,2018,7.0573678,Total,,%,,,,Total
+Guatemala,GT,GTM,320,Out-of-school rate for adolescents of lower secondary school age,2015,33.599998,Female,,%,,,,Total
+Guatemala,GT,GTM,320,Out-of-school rate for adolescents of lower secondary school age,2015,24,Male,,%,,,,Total
+Guatemala,GT,GTM,320,Out-of-school rate for adolescents of lower secondary school age,2015,28.700001,Total,,%,,,,Total
+Guinea,GN,GIN,324,Out-of-school rate for adolescents of lower secondary school age,2018,53.886902,Female,,%,,,,Total
+Guinea,GN,GIN,324,Out-of-school rate for adolescents of lower secondary school age,2018,38.37429,Male,,%,,,,Total
+Guinea,GN,GIN,324,Out-of-school rate for adolescents of lower secondary school age,2018,46.462311,Total,,%,,,,Total
+Guinea-Bissau,GW,GNB,624,Out-of-school rate for adolescents of lower secondary school age,2019,26.079861,Female,,%,,,,Total
+Guinea-Bissau,GW,GNB,624,Out-of-school rate for adolescents of lower secondary school age,2019,20.38961,Male,,%,,,,Total
+Guinea-Bissau,GW,GNB,624,Out-of-school rate for adolescents of lower secondary school age,2019,23.26907,Total,,%,,,,Total
+Guyana,GY,GUY,328,Out-of-school rate for adolescents of lower secondary school age,2020,4.756506,Female,,%,,,,Total
+Guyana,GY,GUY,328,Out-of-school rate for adolescents of lower secondary school age,2020,5.4926901,Male,,%,,,,Total
+Guyana,GY,GUY,328,Out-of-school rate for adolescents of lower secondary school age,2020,5.1424832,Total,,%,,,,Total
+Haiti,HT,HTI,332,Out-of-school rate for adolescents of lower secondary school age,2017,5.201169,Female,,%,,,,Total
+Haiti,HT,HTI,332,Out-of-school rate for adolescents of lower secondary school age,2017,7.2105021,Male,,%,,,,Total
+Haiti,HT,HTI,332,Out-of-school rate for adolescents of lower secondary school age,2017,6.2629771,Total,,%,,,,Total
+Honduras,HN,HND,340,Out-of-school rate for adolescents of lower secondary school age,2019,25.857731,Female,,%,,,,Total
+Honduras,HN,HND,340,Out-of-school rate for adolescents of lower secondary school age,2019,31.974701,Male,,%,,,,Total
+Honduras,HN,HND,340,Out-of-school rate for adolescents of lower secondary school age,2019,28.97571,Total,,%,,,,Total
+India,IN,IND,356,Out-of-school rate for adolescents of lower secondary school age,2016,7.5483842,Female,,%,,,,Total
+India,IN,IND,356,Out-of-school rate for adolescents of lower secondary school age,2016,6.9056602,Male,,%,,,,Total
+India,IN,IND,356,Out-of-school rate for adolescents of lower secondary school age,2016,7.2216291,Total,,%,,,,Total
+Indonesia,ID,IDN,360,Out-of-school rate for adolescents of lower secondary school age,2017,4.2785702,Female,,%,,,,Total
+Indonesia,ID,IDN,360,Out-of-school rate for adolescents of lower secondary school age,2017,6.6638408,Male,,%,,,,Total
+Indonesia,ID,IDN,360,Out-of-school rate for adolescents of lower secondary school age,2017,5.5017729,Total,,%,,,,Total
+Iraq,IQ,IRQ,368,Out-of-school rate for adolescents of lower secondary school age,2018,27.700001,Female,,%,,,,Total
+Iraq,IQ,IRQ,368,Out-of-school rate for adolescents of lower secondary school age,2018,14.7,Male,,%,,,,Total
+Iraq,IQ,IRQ,368,Out-of-school rate for adolescents of lower secondary school age,2018,21.1,Total,,%,,,,Total
+Jamaica,JM,JAM,388,Out-of-school rate for adolescents of lower secondary school age,2011,0.69063997,Female,,%,,,,Total
+Jamaica,JM,JAM,388,Out-of-school rate for adolescents of lower secondary school age,2011,0.76335061,Male,,%,,,,Total
+Jamaica,JM,JAM,388,Out-of-school rate for adolescents of lower secondary school age,2011,0.72722727,Total,,%,,,,Total
+Jordan,JO,JOR,400,Out-of-school rate for adolescents of lower secondary school age,2018,5.0999999,Female,,%,,,,Total
+Jordan,JO,JOR,400,Out-of-school rate for adolescents of lower secondary school age,2018,5.5,Male,,%,,,,Total
+Jordan,JO,JOR,400,Out-of-school rate for adolescents of lower secondary school age,2018,5.3000002,Total,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Out-of-school rate for adolescents of lower secondary school age,2015,0.0267945,Female,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Out-of-school rate for adolescents of lower secondary school age,2015,0.40000001,Male,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Out-of-school rate for adolescents of lower secondary school age,2015,0.2,Total,,%,,,,Total
+Kenya,KE,KEN,404,Out-of-school rate for adolescents of lower secondary school age,2014,3.3877161,Female,,%,,,,Total
+Kenya,KE,KEN,404,Out-of-school rate for adolescents of lower secondary school age,2014,3.1538229,Male,,%,,,,Total
+Kenya,KE,KEN,404,Out-of-school rate for adolescents of lower secondary school age,2014,3.2698109,Total,,%,,,,Total
+Kiribati,KI,KIR,296,Out-of-school rate for adolescents of lower secondary school age,2019,5.2956481,Female,,%,,,,Total
+Kiribati,KI,KIR,296,Out-of-school rate for adolescents of lower secondary school age,2019,14.79884,Male,,%,,,,Total
+Kiribati,KI,KIR,296,Out-of-school rate for adolescents of lower secondary school age,2019,10.34616,Total,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Out-of-school rate for adolescents of lower secondary school age,2018,1.2,Female,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Out-of-school rate for adolescents of lower secondary school age,2018,1.5,Male,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Out-of-school rate for adolescents of lower secondary school age,2018,1.4,Total,,%,,,,Total
+Lao People's Democratic Republic,LA,LAO,418,Out-of-school rate for adolescents of lower secondary school age,2017,22.299999,Female,,%,,,,Total
+Lao People's Democratic Republic,LA,LAO,418,Out-of-school rate for adolescents of lower secondary school age,2017,17.9,Male,,%,,,,Total
+Lao People's Democratic Republic,LA,LAO,418,Out-of-school rate for adolescents of lower secondary school age,2017,20,Total,,%,,,,Total
+Lesotho,LS,LSO,426,Out-of-school rate for adolescents of lower secondary school age,2018,8.8000002,Female,,%,,,,Total
+Lesotho,LS,LSO,426,Out-of-school rate for adolescents of lower secondary school age,2018,19.200001,Male,,%,,,,Total
+Lesotho,LS,LSO,426,Out-of-school rate for adolescents of lower secondary school age,2018,14.1,Total,,%,,,,Total
+Liberia,LR,LBR,430,Out-of-school rate for adolescents of lower secondary school age,2013,18.39839,Female,,%,,,,Total
+Liberia,LR,LBR,430,Out-of-school rate for adolescents of lower secondary school age,2013,20.885929,Male,,%,,,,Total
+Liberia,LR,LBR,430,Out-of-school rate for adolescents of lower secondary school age,2013,19.61795,Total,,%,,,,Total
+Madagascar,MG,MDG,450,Out-of-school rate for adolescents of lower secondary school age,2018,33.099998,Female,,%,,,,Total
+Madagascar,MG,MDG,450,Out-of-school rate for adolescents of lower secondary school age,2018,38,Male,,%,,,,Total
+Madagascar,MG,MDG,450,Out-of-school rate for adolescents of lower secondary school age,2018,35.599998,Total,,%,,,,Total
+Malawi,MW,MWI,454,Out-of-school rate for adolescents of lower secondary school age,2016,7.8872399,Female,,%,,,,Total
+Malawi,MW,MWI,454,Out-of-school rate for adolescents of lower secondary school age,2016,8.0389347,Male,,%,,,,Total
+Malawi,MW,MWI,454,Out-of-school rate for adolescents of lower secondary school age,2016,7.964612,Total,,%,,,,Total
+Maldives,MV,MDV,462,Out-of-school rate for adolescents of lower secondary school age,2017,3.830708,Female,,%,,,,Total
+Maldives,MV,MDV,462,Out-of-school rate for adolescents of lower secondary school age,2017,4.1142192,Male,,%,,,,Total
+Maldives,MV,MDV,462,Out-of-school rate for adolescents of lower secondary school age,2017,3.9809189,Total,,%,,,,Total
+Mali,ML,MLI,466,Out-of-school rate for adolescents of lower secondary school age,2015,63,Female,,%,,,,Total
+Mali,ML,MLI,466,Out-of-school rate for adolescents of lower secondary school age,2015,55.400002,Male,,%,,,,Total
+Mali,ML,MLI,466,Out-of-school rate for adolescents of lower secondary school age,2015,59,Total,,%,,,,Total
+Mauritania,MR,MRT,478,Out-of-school rate for adolescents of lower secondary school age,2015,41.810169,Female,,%,,,,Total
+Mauritania,MR,MRT,478,Out-of-school rate for adolescents of lower secondary school age,2015,40.18478,Male,,%,,,,Total
+Mauritania,MR,MRT,478,Out-of-school rate for adolescents of lower secondary school age,2015,41.02861,Total,,%,,,,Total
+Mexico,MX,MEX,484,Out-of-school rate for adolescents of lower secondary school age,2018,5.4000001,Female,,%,,,,Total
+Mexico,MX,MEX,484,Out-of-school rate for adolescents of lower secondary school age,2018,6.5,Male,,%,,,,Total
+Mexico,MX,MEX,484,Out-of-school rate for adolescents of lower secondary school age,2018,6,Total,,%,,,,Total
+Mongolia,MN,MNG,496,Out-of-school rate for adolescents of lower secondary school age,2018,3.3,Female,,%,,,,Total
+Mongolia,MN,MNG,496,Out-of-school rate for adolescents of lower secondary school age,2018,5.3000002,Male,,%,,,,Total
+Mongolia,MN,MNG,496,Out-of-school rate for adolescents of lower secondary school age,2018,4.4000001,Total,,%,,,,Total
+Montenegro,ME,MNE,499,Out-of-school rate for adolescents of lower secondary school age,2018,1.649568,Female,,%,,,,Total
+Montenegro,ME,MNE,499,Out-of-school rate for adolescents of lower secondary school age,2018,0.98554462,Male,,%,,,,Total
+Montenegro,ME,MNE,499,Out-of-school rate for adolescents of lower secondary school age,2018,1.288602,Total,,%,,,,Total
+Mozambique,MZ,MOZ,508,Out-of-school rate for adolescents of lower secondary school age,2011,38.299999,Female,,%,,,,Total
+Mozambique,MZ,MOZ,508,Out-of-school rate for adolescents of lower secondary school age,2011,28,Male,,%,,,,Total
+Mozambique,MZ,MOZ,508,Out-of-school rate for adolescents of lower secondary school age,2011,33.099998,Total,,%,,,,Total
+Myanmar,MM,MMR,104,Out-of-school rate for adolescents of lower secondary school age,2016,17.4,Female,,%,,,,Total
+Myanmar,MM,MMR,104,Out-of-school rate for adolescents of lower secondary school age,2016,15.5,Male,,%,,,,Total
+Myanmar,MM,MMR,104,Out-of-school rate for adolescents of lower secondary school age,2016,16.5,Total,,%,,,,Total
+Namibia,,NAM,516,Out-of-school rate for adolescents of lower secondary school age,2013,12.10965,Female,,%,,,,Total
+Namibia,,NAM,516,Out-of-school rate for adolescents of lower secondary school age,2013,11.23619,Male,,%,,,,Total
+Namibia,,NAM,516,Out-of-school rate for adolescents of lower secondary school age,2013,11.66673,Total,,%,,,,Total
+Nepal,NP,NPL,524,Out-of-school rate for adolescents of lower secondary school age,2019,4.4802279,Female,,%,,,,Total
+Nepal,NP,NPL,524,Out-of-school rate for adolescents of lower secondary school age,2019,4.1706882,Male,,%,,,,Total
+Nepal,NP,NPL,524,Out-of-school rate for adolescents of lower secondary school age,2019,4.3248758,Total,,%,,,,Total
+Niger,NE,NER,562,Out-of-school rate for adolescents of lower secondary school age,2012,72.58609,Female,,%,,,,Total
+Niger,NE,NER,562,Out-of-school rate for adolescents of lower secondary school age,2012,67.231361,Male,,%,,,,Total
+Niger,NE,NER,562,Out-of-school rate for adolescents of lower secondary school age,2012,69.712318,Total,,%,,,,Total
+Nigeria,NG,NGA,566,Out-of-school rate for adolescents of lower secondary school age,2018,28.6,Female,,%,,,,Total
+Nigeria,NG,NGA,566,Out-of-school rate for adolescents of lower secondary school age,2018,24.6,Male,,%,,,,Total
+Nigeria,NG,NGA,566,Out-of-school rate for adolescents of lower secondary school age,2018,26.6,Total,,%,,,,Total
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Out-of-school rate for adolescents of lower secondary school age,2019,2.4302299,Female,,%,,,,Total
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Out-of-school rate for adolescents of lower secondary school age,2019,1.030418,Male,,%,,,,Total
+"Macedonia, the former Yugoslav Republic of",MK,MKD,807,Out-of-school rate for adolescents of lower secondary school age,2019,1.741748,Total,,%,,,,Total
+Pakistan,PK,PAK,586,Out-of-school rate for adolescents of lower secondary school age,2018,31.9296,Female,,%,,,,Total
+Pakistan,PK,PAK,586,Out-of-school rate for adolescents of lower secondary school age,2018,21.730129,Male,,%,,,,Total
+Pakistan,PK,PAK,586,Out-of-school rate for adolescents of lower secondary school age,2018,26.92841,Total,,%,,,,Total
+Panama,PA,PAN,591,Out-of-school rate for adolescents of lower secondary school age,2013,3.4133899,Female,,%,,,,Total
+Panama,PA,PAN,591,Out-of-school rate for adolescents of lower secondary school age,2013,4.4000001,Male,,%,,,,Total
+Panama,PA,PAN,591,Out-of-school rate for adolescents of lower secondary school age,2013,3.9000001,Total,,%,,,,Total
+Paraguay,PY,PRY,600,Out-of-school rate for adolescents of lower secondary school age,2017,6.5999999,Female,,%,,,,Total
+Paraguay,PY,PRY,600,Out-of-school rate for adolescents of lower secondary school age,2017,8.6000004,Male,,%,,,,Total
+Paraguay,PY,PRY,600,Out-of-school rate for adolescents of lower secondary school age,2017,7.6999998,Total,,%,,,,Total
+Peru,PE,PER,604,Out-of-school rate for adolescents of lower secondary school age,2012,7.0999999,Female,,%,,,,Total
+Peru,PE,PER,604,Out-of-school rate for adolescents of lower secondary school age,2012,7,Male,,%,,,,Total
+Peru,PE,PER,604,Out-of-school rate for adolescents of lower secondary school age,2012,7,Total,,%,,,,Total
+Philippines,PH,PHL,608,Out-of-school rate for adolescents of lower secondary school age,2017,3.1776979,Female,,%,,,,Total
+Philippines,PH,PHL,608,Out-of-school rate for adolescents of lower secondary school age,2017,5.340517,Male,,%,,,,Total
+Philippines,PH,PHL,608,Out-of-school rate for adolescents of lower secondary school age,2017,4.3036718,Total,,%,,,,Total
+Qatar,QA,QAT,634,Out-of-school rate for adolescents of lower secondary school age,2012,3.1388519,Female,,%,,,,Total
+Qatar,QA,QAT,634,Out-of-school rate for adolescents of lower secondary school age,2012,2.3625369,Male,,%,,,,Total
+Qatar,QA,QAT,634,Out-of-school rate for adolescents of lower secondary school age,2012,2.700768,Total,,%,,,,Total
+"Moldova, Republic of",MD,MDA,498,Out-of-school rate for adolescents of lower secondary school age,2012,1.421798,Female,,%,,,,Total
+"Moldova, Republic of",MD,MDA,498,Out-of-school rate for adolescents of lower secondary school age,2012,3.8454759,Male,,%,,,,Total
+"Moldova, Republic of",MD,MDA,498,Out-of-school rate for adolescents of lower secondary school age,2012,2.678643,Total,,%,,,,Total
+Romania,RO,ROU,642,Out-of-school rate for adolescents of lower secondary school age,2016,10.2,Female,,%,,,,Total
+Romania,RO,ROU,642,Out-of-school rate for adolescents of lower secondary school age,2016,9.6999998,Male,,%,,,,Total
+Romania,RO,ROU,642,Out-of-school rate for adolescents of lower secondary school age,2016,10,Total,,%,,,,Total
+Rwanda,RW,RWA,646,Out-of-school rate for adolescents of lower secondary school age,2015,25.6,Female,,%,,,,Total
+Rwanda,RW,RWA,646,Out-of-school rate for adolescents of lower secondary school age,2015,26,Male,,%,,,,Total
+Rwanda,RW,RWA,646,Out-of-school rate for adolescents of lower secondary school age,2015,25.799999,Total,,%,,,,Total
+Saint Lucia,LC,LCA,662,Out-of-school rate for adolescents of lower secondary school age,2012,0.958821,Female,,%,,,,Total
+Saint Lucia,LC,LCA,662,Out-of-school rate for adolescents of lower secondary school age,2012,1.210579,Male,,%,,,,Total
+Saint Lucia,LC,LCA,662,Out-of-school rate for adolescents of lower secondary school age,2012,1.093821,Total,,%,,,,Total
+Samoa,WS,WSM,882,Out-of-school rate for adolescents of lower secondary school age,2020,3.4791009,Female,,%,,,,Total
+Samoa,WS,WSM,882,Out-of-school rate for adolescents of lower secondary school age,2020,6.585115,Male,,%,,,,Total
+Samoa,WS,WSM,882,Out-of-school rate for adolescents of lower secondary school age,2020,5.1649661,Total,,%,,,,Total
+Sao Tome and Principe,ST,STP,678,Out-of-school rate for adolescents of lower secondary school age,2019,4.2260499,Female,,%,,,,Total
+Sao Tome and Principe,ST,STP,678,Out-of-school rate for adolescents of lower secondary school age,2019,8.6504745,Male,,%,,,,Total
+Sao Tome and Principe,ST,STP,678,Out-of-school rate for adolescents of lower secondary school age,2019,6.4788709,Total,,%,,,,Total
+Senegal,SN,SEN,686,Out-of-school rate for adolescents of lower secondary school age,2019,36.29673,Female,,%,,,,Total
+Senegal,SN,SEN,686,Out-of-school rate for adolescents of lower secondary school age,2019,42.458569,Male,,%,,,,Total
+Senegal,SN,SEN,686,Out-of-school rate for adolescents of lower secondary school age,2019,39.283192,Total,,%,,,,Total
+Serbia,RS,SRB,688,Out-of-school rate for adolescents of lower secondary school age,2019,0.43215179,Female,,%,,,,Total
+Serbia,RS,SRB,688,Out-of-school rate for adolescents of lower secondary school age,2019,0,Male,,%,,,,Total
+Serbia,RS,SRB,688,Out-of-school rate for adolescents of lower secondary school age,2019,0.1906551,Total,,%,,,,Total
+Sierra Leone,SL,SLE,694,Out-of-school rate for adolescents of lower secondary school age,2017,17.6,Female,,%,,,,Total
+Sierra Leone,SL,SLE,694,Out-of-school rate for adolescents of lower secondary school age,2017,20.200001,Male,,%,,,,Total
+Sierra Leone,SL,SLE,694,Out-of-school rate for adolescents of lower secondary school age,2017,19,Total,,%,,,,Total
+South Africa,ZA,ZAF,710,Out-of-school rate for adolescents of lower secondary school age,2016,4.3000002,Female,,%,,,,Total
+South Africa,ZA,ZAF,710,Out-of-school rate for adolescents of lower secondary school age,2016,6.0999999,Male,,%,,,,Total
+South Africa,ZA,ZAF,710,Out-of-school rate for adolescents of lower secondary school age,2016,5.1999998,Total,,%,,,,Total
+South Sudan,SS,SSD,728,Out-of-school rate for adolescents of lower secondary school age,2010,67.330406,Female,,%,,,,Total
+South Sudan,SS,SSD,728,Out-of-school rate for adolescents of lower secondary school age,2010,58.961849,Male,,%,,,,Total
+South Sudan,SS,SSD,728,Out-of-school rate for adolescents of lower secondary school age,2010,62.96674,Total,,%,,,,Total
+Sri Lanka,LK,LKA,144,Out-of-school rate for adolescents of lower secondary school age,2016,0.74520868,Female,,%,,,,Total
+Sri Lanka,LK,LKA,144,Out-of-school rate for adolescents of lower secondary school age,2016,1.036393,Male,,%,,,,Total
+Sri Lanka,LK,LKA,144,Out-of-school rate for adolescents of lower secondary school age,2016,0.89038199,Total,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Out-of-school rate for adolescents of lower secondary school age,2020,1.576453,Female,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Out-of-school rate for adolescents of lower secondary school age,2020,6.053514,Male,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Out-of-school rate for adolescents of lower secondary school age,2020,3.847523,Total,,%,,,,Total
+Sudan,SD,SDN,736,Out-of-school rate for adolescents of lower secondary school age,2014,24.5,Female,,%,,,,Total
+Sudan,SD,SDN,736,Out-of-school rate for adolescents of lower secondary school age,2014,16.200001,Male,,%,,,,Total
+Sudan,SD,SDN,736,Out-of-school rate for adolescents of lower secondary school age,2014,20.799999,Total,,%,,,,Total
+Suriname,SR,SUR,740,Out-of-school rate for adolescents of lower secondary school age,2018,5.5,Female,,%,,,,Total
+Suriname,SR,SUR,740,Out-of-school rate for adolescents of lower secondary school age,2018,7.8000002,Male,,%,,,,Total
+Suriname,SR,SUR,740,Out-of-school rate for adolescents of lower secondary school age,2018,6.5999999,Total,,%,,,,Total
+Tajikistan,TJ,TJK,762,Out-of-school rate for adolescents of lower secondary school age,2017,4.437202,Female,,%,,,,Total
+Tajikistan,TJ,TJK,762,Out-of-school rate for adolescents of lower secondary school age,2017,1.262718,Male,,%,,,,Total
+Tajikistan,TJ,TJK,762,Out-of-school rate for adolescents of lower secondary school age,2017,2.790098,Total,,%,,,,Total
+Thailand,TH,THA,764,Out-of-school rate for adolescents of lower secondary school age,2019,1.605356,Female,,%,,,,Total
+Thailand,TH,THA,764,Out-of-school rate for adolescents of lower secondary school age,2019,5.1435418,Male,,%,,,,Total
+Thailand,TH,THA,764,Out-of-school rate for adolescents of lower secondary school age,2019,3.365458,Total,,%,,,,Total
+Timor-Leste,TL,TLS,626,Out-of-school rate for adolescents of lower secondary school age,2016,7.8183241,Female,,%,,,,Total
+Timor-Leste,TL,TLS,626,Out-of-school rate for adolescents of lower secondary school age,2016,9.5540771,Male,,%,,,,Total
+Timor-Leste,TL,TLS,626,Out-of-school rate for adolescents of lower secondary school age,2016,8.6968431,Total,,%,,,,Total
+Togo,TG,TGO,768,Out-of-school rate for adolescents of lower secondary school age,2017,14.34949,Female,,%,,,,Total
+Togo,TG,TGO,768,Out-of-school rate for adolescents of lower secondary school age,2017,9.9686413,Male,,%,,,,Total
+Togo,TG,TGO,768,Out-of-school rate for adolescents of lower secondary school age,2017,12.14184,Total,,%,,,,Total
+Tonga,TO,TON,776,Out-of-school rate for adolescents of lower secondary school age,2019,7.7510061,Female,,%,,,,Total
+Tonga,TO,TON,776,Out-of-school rate for adolescents of lower secondary school age,2019,13.79239,Male,,%,,,,Total
+Tonga,TO,TON,776,Out-of-school rate for adolescents of lower secondary school age,2019,10.73647,Total,,%,,,,Total
+Trinidad and Tobago,TT,TTO,780,Out-of-school rate for adolescents of lower secondary school age,2011,2.7916529,Female,,%,,,,Total
+Trinidad and Tobago,TT,TTO,780,Out-of-school rate for adolescents of lower secondary school age,2011,2.015769,Male,,%,,,,Total
+Trinidad and Tobago,TT,TTO,780,Out-of-school rate for adolescents of lower secondary school age,2011,2.379179,Total,,%,,,,Total
+Tunisia,TN,TUN,788,Out-of-school rate for adolescents of lower secondary school age,2018,6.8000002,Female,,%,,,,Total
+Tunisia,TN,TUN,788,Out-of-school rate for adolescents of lower secondary school age,2018,7.0999999,Male,,%,,,,Total
+Tunisia,TN,TUN,788,Out-of-school rate for adolescents of lower secondary school age,2018,7,Total,,%,,,,Total
+Turkmenistan,TM,TKM,795,Out-of-school rate for adolescents of lower secondary school age,2019,0.93591958,Female,,%,,,,Total
+Turkmenistan,TM,TKM,795,Out-of-school rate for adolescents of lower secondary school age,2019,0.57974821,Male,,%,,,,Total
+Turkmenistan,TM,TKM,795,Out-of-school rate for adolescents of lower secondary school age,2019,0.7565136,Total,,%,,,,Total
+Turks and Caicos Islands,TC,TCA,796,Out-of-school rate for adolescents of lower secondary school age,2020,0.2495954,Female,,%,,,,Total
+Turks and Caicos Islands,TC,TCA,796,Out-of-school rate for adolescents of lower secondary school age,2020,0,Male,,%,,,,Total
+Turks and Caicos Islands,TC,TCA,796,Out-of-school rate for adolescents of lower secondary school age,2020,0.1221493,Total,,%,,,,Total
+Tuvalu,TV,TUV,798,Out-of-school rate for adolescents of lower secondary school age,2020,17.30792,Female,,%,,,,Total
+Tuvalu,TV,TUV,798,Out-of-school rate for adolescents of lower secondary school age,2020,26.12632,Male,,%,,,,Total
+Tuvalu,TV,TUV,798,Out-of-school rate for adolescents of lower secondary school age,2020,22.633511,Total,,%,,,,Total
+Turkey,TR,TUR,792,Out-of-school rate for adolescents of lower secondary school age,2013,3.38151,Female,,%,,,,Total
+Turkey,TR,TUR,792,Out-of-school rate for adolescents of lower secondary school age,2013,1.663308,Male,,%,,,,Total
+Turkey,TR,TUR,792,Out-of-school rate for adolescents of lower secondary school age,2013,2.51911,Total,,%,,,,Total
+Uganda,UG,UGA,800,Out-of-school rate for adolescents of lower secondary school age,2016,23.43749,Female,,%,,,,Total
+Uganda,UG,UGA,800,Out-of-school rate for adolescents of lower secondary school age,2016,22.160151,Male,,%,,,,Total
+Uganda,UG,UGA,800,Out-of-school rate for adolescents of lower secondary school age,2016,22.785629,Total,,%,,,,Total
+Ukraine,UA,UKR,804,Out-of-school rate for adolescents of lower secondary school age,2012,1.1,Female,,%,,,,Total
+Ukraine,UA,UKR,804,Out-of-school rate for adolescents of lower secondary school age,2012,0.69999999,Male,,%,,,,Total
+Ukraine,UA,UKR,804,Out-of-school rate for adolescents of lower secondary school age,2012,0.89999998,Total,,%,,,,Total
+"Tanzania, United Republic of",TZ,TZA,834,Out-of-school rate for adolescents of lower secondary school age,2016,58.299999,Female,,%,,,,Total
+"Tanzania, United Republic of",TZ,TZA,834,Out-of-school rate for adolescents of lower secondary school age,2016,55.799999,Male,,%,,,,Total
+"Tanzania, United Republic of",TZ,TZA,834,Out-of-school rate for adolescents of lower secondary school age,2016,57,Total,,%,,,,Total
+Uruguay,UY,URY,858,Out-of-school rate for adolescents of lower secondary school age,2013,11.26425,Female,,%,,,,Total
+Uruguay,UY,URY,858,Out-of-school rate for adolescents of lower secondary school age,2013,6.915205,Male,,%,,,,Total
+Uruguay,UY,URY,858,Out-of-school rate for adolescents of lower secondary school age,2013,9.2928085,Total,,%,,,,Total
+Viet Nam,VN,VNM,704,Out-of-school rate for adolescents of lower secondary school age,2014,5.873158,Female,,%,,,,Total
+Viet Nam,VN,VNM,704,Out-of-school rate for adolescents of lower secondary school age,2014,6.1581621,Male,,%,,,,Total
+Viet Nam,VN,VNM,704,Out-of-school rate for adolescents of lower secondary school age,2014,6.0178428,Total,,%,,,,Total
+Yemen,YE,YEM,887,Out-of-school rate for adolescents of lower secondary school age,2013,31.70694,Female,,%,,,,Total
+Yemen,YE,YEM,887,Out-of-school rate for adolescents of lower secondary school age,2013,11.98945,Male,,%,,,,Total
+Yemen,YE,YEM,887,Out-of-school rate for adolescents of lower secondary school age,2013,21.608431,Total,,%,,,,Total
+Zambia,ZM,ZMB,894,Out-of-school rate for adolescents of lower secondary school age,2018,26.749201,Female,,%,,,,Total
+Zambia,ZM,ZMB,894,Out-of-school rate for adolescents of lower secondary school age,2018,19.57453,Male,,%,,,,Total
+Zambia,ZM,ZMB,894,Out-of-school rate for adolescents of lower secondary school age,2018,23.26379,Total,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Out-of-school rate for adolescents of lower secondary school age,2019,16.4,Female,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Out-of-school rate for adolescents of lower secondary school age,2019,21.799999,Male,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Out-of-school rate for adolescents of lower secondary school age,2019,19.1,Total,,%,,,,Total
