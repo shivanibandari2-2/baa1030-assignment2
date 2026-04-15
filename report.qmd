@@ -1,0 +1,605 @@
+---
+title: "Left Behind: The Global Crisis of Out-of-School Adolescents"
+author: "Shivani"
+date: today
+format:
+  html:
+    embed-resources: true
+    code-fold: true
+    theme: flatly
+    toc: true
+    toc-depth: 3
+    toc-title: "Table of Contents"
+    number-sections: true
+    smooth-scroll: true
+    highlight-style: github
+    fig-align: center
+execute:
+  warning: false
+  message: false
+  echo: true
+---
+
+# Introduction
+Education is generally regarded as a fundamental human right, but millions of teenagers between the ages of 12 and 15 are out of school across the globe. Data from 115 countries (2010–2020) shows a global average out-of-school rate of 14.2%, with stark regional differences. In Niger, the out-of-school percentage of adolescents is almost 70 percent, and Sub-Saharan Africa often records between 40 to 60 percent, in contrast to less than 1 percent in Europe and Central Asia.
+Poverty, geography and gender inequality are the major drivers of these disparities. In low-income countries- particularly countries with GDP per capita of below 2000- children are more excluded, usually because of costs, absence of schools near them, and resources. The girls are always hit more than boys because of social and cultural constraints.
+As much as there has been an improvement, the gap is high. To guarantee equal access to education, it is important to target the regions most affected and work on making them less unequal and offer more opportunities to everyone.
+
+
+---
+
+# Data & Methodology
+
+## Data Sources
+
+The three UNICEF datasets used to draw on in this report include::
+
+- **Indicator 1** — Out-of-school rate among adolescents of lower secondary school age (%)
+- **Indicator 2** — Adjusted net attendance rate among adolescents of lower secondary school age (%)
+- **Metadata** — Country-level economic and demographic indicators (GDP per capita, life expectancy, population)
+
+
+## Setup and Libraries
+
+```{python}
+#| label: setup
+#| echo: true
+
+import polars as pl
+import pandas as pd
+import geopandas as gpd
+import importlib.util
+import os
+import warnings
+import numpy as np
+from plotnine import (
+    ggplot, aes, geom_map, geom_col, geom_point, geom_smooth,
+    geom_line, geom_text, geom_hline, annotate,
+    scale_fill_gradient, scale_color_manual,
+    scale_x_log10, scale_y_continuous, scale_x_continuous,
+    coord_flip, labs,
+    theme, theme_minimal, theme_void, theme_classic,
+    element_text, element_blank, element_line,
+    guides
+)
+
+warnings.filterwarnings("ignore")
+```
+
+## Loading Data with Error Handling
+
+```{python}
+#| label: load-data
+#| echo: true
+
+def load_unicef_csv(path: str) -> pl.DataFrame:
+    """
+    Load UNICEF CSV data into a Polars DataFrame.
+    Raises FileNotFoundError with a clear message if the file is missing.
+    Prints row/column counts to quickly validate on load.
+    """
+    if not os.path.exists(path):
+        raise FileNotFoundError(
+            f"Dataset not found at '{path}'. "
+            "Ensure all three CSV files are in the same folder as this report."
+        )
+    df = pl.read_csv(path, infer_schema_length=10000, null_values=["", "NA", "N/A"])
+    print(f"  Loaded '{os.path.basename(path)}': "
+          f"{df.shape[0]:,} rows x {df.shape[1]} columns")
+    return df
+
+
+print("Loading UNICEF datasets...\n")
+indicator1 = load_unicef_csv("unicef_indicator_1.csv")
+indicator2 = load_unicef_csv("unicef_indicator_2.csv")
+metadata   = load_unicef_csv("unicef_metadata.csv")
+print("\nAll datasets loaded successfully.")
+```
+
+---
+
+# Exploratory Data Analysis
+
+## Data Quality Checks
+
+```{python}
+#| label: eda-quality
+#| echo: true
+
+def summarise_dataset(df: pl.DataFrame, name: str) -> None:
+    """
+    Print EDA summary of a Polars DataFrame with:
+    shape, columns that are non-zero in their null counts,
+    descriptive statistics of all columns containing numbers.
+    """
+    print(f"\n{'=' * 58}")
+    print(f"  DATASET : {name}")
+    print(f"  Shape   : {df.shape[0]:,} rows x {df.shape[1]} columns")
+    print(f"\n  Null counts (non-zero only):")
+    null_counts = df.null_count()
+    any_nulls = False
+    for col in null_counts.columns:
+        n = null_counts[col][0]
+        if n > 0:
+            pct = round(100 * n / df.shape[0], 1)
+            print(f"    {col:<48}  {n:>5} nulls ({pct}%)")
+            any_nulls = True
+    if not any_nulls:
+        print("    (no nulls in any column)")
+    print(f"\n  Numeric summary:")
+    print(df.select(pl.col(pl.Float64, pl.Int64)).describe())
+
+
+summarise_dataset(indicator1, "Indicator 1 - Out-of-School Rate")
+summarise_dataset(indicator2, "Indicator 2 - Net Attendance Rate")
+summarise_dataset(metadata,   "Metadata - Country Economic Indicators")
+```
+
+## Key EDA Findings
+
+The EDA reveals several important facts about the data:
+
+The indicator 1 consists of 115 countries during 2010-2020 with observations divided into Female, Male and Total. The values in the obs_value column are very diverse, with values going down to almost 0% and up to 72.6. This wide spectrum is indicative of the world-wide variation in education access and enrollment rates, with some nations enjoying close to universal enrolment to those grappling with significant obstacles.
+The indicator 2 is based on the net attendance rate and includes 112 countries within the same period. Because the out-of-school rate and the attendance rate are basically complements, consideration of the two in tandem would assist in creating a more comprehensive picture of the adolescent education rates across nations.
+The metadata file is the largest, it has the information of 211 countries with a much longer range, between 1960 and 2024. Nevertheless, a weakness is that the most important economic indicators, including GDP per capita, have numerous missing values during the previous decades. In a bid to ensure accuracy of the analysis especially in the scatter plots, only records that have non-null values of GDP per capita are taken. This will prevent any accidental bias that may be brought about by incomplete data.
+
+---
+
+# Data Transformations
+
+## Reshaping and Joining with Polars
+
+```{python}
+#| label: data-transform
+#| echo: true
+
+# ── 1. Indicator 1: filter to "Total" sex, cast obs_value, rename year column ─
+ind1_total = (
+    indicator1
+    .filter(pl.col("sex") == "Total")
+    .filter(pl.col("obs_value").is_not_null())
+    .with_columns(pl.col("obs_value").cast(pl.Float64))
+    .rename({"time_period": "year"})
+)
+
+# ── 2. Country average OOS rate using group_by ────────────────────────────────
+#    group_by + mean ensures each country contributes equally regardless of how
+#    many survey years it has, avoiding over-representation of frequently
+#    surveyed countries.
+country_avg = (
+    ind1_total
+    .group_by("country", "alpha_3_code")
+    .agg(
+        pl.col("obs_value").mean().alias("avg_oos_rate"),
+        pl.col("obs_value").count().alias("n_obs"),
+        pl.col("obs_value").min().alias("min_oos_rate"),
+        pl.col("obs_value").max().alias("max_oos_rate")
+    )
+    .sort("avg_oos_rate", descending=True)
+)
+
+# ── 3. Top 10 worst-performing countries for bar chart ────────────────────────
+top10 = country_avg.head(10).to_pandas()
+top10["label"] = top10["avg_oos_rate"].round(1).astype(str) + "%"
+top10["country_display"] = top10["country"].replace(
+    {"Tanzania, United Republic of": "Tanzania"}
+)
+
+# ── 4. Gender trend by year (group_by on two columns) ────────────────────────
+#    Comparing Female vs Male average rates over time reveals whether the
+#    gender gap is narrowing, stable, or widening — a key policy metric.
+gender_trend = (
+    indicator1
+    .filter(pl.col("sex").is_in(["Female", "Male"]))
+    .filter(pl.col("obs_value").is_not_null())
+    .with_columns(pl.col("obs_value").cast(pl.Float64))
+    .rename({"time_period": "year"})
+    .group_by("year", "sex")
+    .agg(
+        pl.col("obs_value").mean().alias("avg_oos_rate"),
+        pl.col("country").n_unique().alias("n_countries")
+    )
+    .sort("year")
+    .to_pandas()
+)
+
+# ── 5. Clean metadata: rename long column headers for usability ───────────────
+meta_clean = (
+    metadata
+    .rename({
+        "GDP per capita (constant 2015 US$)":       "gdp_per_capita",
+        "Life expectancy at birth, total (years)":  "life_expectancy",
+        "Population, total":                        "population"
+    })
+    .select(["country", "alpha_3_code", "year",
+             "gdp_per_capita", "life_expectancy", "population"])
+    .filter(pl.col("gdp_per_capita").is_not_null())
+)
+
+# ── 6. LEFT JOIN: most-recent Indicator 1 row per country <- metadata row ─────
+#    Rationale: a LEFT JOIN retains every country that has indicator data, even
+#    if the metadata for that exact year is absent. This preserves the widest
+#    geographic coverage for the scatterplot rather than silently dropping
+#    countries with incomplete economic records.
+ind1_latest = (
+    ind1_total
+    .sort("year", descending=True)
+    .group_by("country", "alpha_3_code")
+    .agg(
+        pl.col("obs_value").first().alias("oos_rate"),
+        pl.col("year").first().alias("year")
+    )
+)
+
+scatter_data = (
+    ind1_latest
+    .join(meta_clean, on=["country", "alpha_3_code", "year"], how="left")
+    .filter(pl.col("gdp_per_capita").is_not_null())
+    .filter(pl.col("oos_rate").is_not_null())
+    .to_pandas()
+)
+
+print(f"Country averages computed for {len(country_avg)} countries.")
+print(f"Scatter dataset: {len(scatter_data)} countries with matching GDP data.")
+print(f"Gender trend: {len(gender_trend)} year x sex combinations.")
+print("\nTop 5 worst-performing countries:")
+print(country_avg.head(5).select(["country", "avg_oos_rate", "n_obs"]))
+```
+
+---
+
+# Visualisations
+
+## World Map: Geographic Distribution of Out-of-School Rates
+
+*The darker colors of red depict countries with higher average out-of-school rates in the map, and it is easier to locate areas of the issue being worse. Grey countries show that there was no data on them in UNICEF dataset.
+*
+
+```{python}
+#| label: fig-world-map
+#| fig-cap: "The average out-of-school rate (%) of lower-secondary adolescents in various countries is depicted in figure 1. The trend is pretty evident- Sub-Saharan Africa bears the brunt. Countries such as Niger (69.7%), South Sudan (63.0%), Mali (59.0%), Tanzania (57.0%), and Burkina Faso (57.0%) are among the most affected. Conversely, some parts of the world such as Europe, Central Asia, and Latin America record rates near to zero, which indicates a huge inequality in education access around the world."
+#| fig-width: 11
+#| fig-height: 6
+#| echo: true
+
+def get_world_shapefile() -> gpd.GeoDataFrame:
+    """
+    Load the Natural Earth low-resolution world shapefile.
+    Tries three sources in priority order:
+      1. geopandas bundled dataset (geopandas < 1.0)
+      2. pyogrio test fixtures (modern geopandas / pyogrio)
+      3. GitHub download fallback (requires internet access)
+    """
+    # Method 1: geopandas < 1.0 bundled dataset
+    try:
+        import geopandas.datasets
+        return gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
+    except Exception:
+        pass
+
+    # Method 2: pyogrio test fixtures (shipped with modern geopandas)
+    spec = importlib.util.find_spec("pyogrio")
+    if spec:
+        pyogrio_dir = os.path.dirname(spec.origin)
+        shp_path = os.path.join(
+            pyogrio_dir, "tests", "fixtures",
+            "naturalearth_lowres", "naturalearth_lowres.shp"
+        )
+        if os.path.exists(shp_path):
+            return gpd.read_file(shp_path)
+
+    # Method 3: download from GitHub (requires internet)
+    import urllib.request, io
+    url = ("https://raw.githubusercontent.com/geopandas/geopandas/main/"
+           "geopandas/datasets/naturalearth_lowres/naturalearth_lowres.shp")
+    data = urllib.request.urlopen(url, timeout=15).read()
+    return gpd.read_file(io.BytesIO(data))
+
+
+world = get_world_shapefile()
+
+# Merge using ISO alpha-3 codes (more reliable than country name text matching)
+world_merged = world.merge(
+    country_avg.to_pandas()[["alpha_3_code", "avg_oos_rate"]],
+    left_on="iso_a3",
+    right_on="alpha_3_code",
+    how="left"
+)
+
+(
+    ggplot(world_merged)
+    + geom_map(aes(fill="avg_oos_rate"), color="white", size=0.15)
+    + scale_fill_gradient(
+        low="#ffe5c0", high="#b30000",
+        na_value="#d0d0d0",
+        name="OOS Rate (%)",
+        limits=[0, 75]
+    )
+    + labs(
+        title    = "The Geography of Educational Exclusion",
+        subtitle = ("Average out-of-school rate for lower-secondary adolescents"
+                    " | 2010-2020 | UNICEF"),
+        caption  = "Source: UNICEF Indicator 1  |  Grey = no data available"
+    )
+    + theme_void()
+    + theme(
+        plot_title    = element_text(size=14, weight="bold",
+                                     color="#1a1a2e", ha="center"),
+        plot_subtitle = element_text(size=10, color="#555555", ha="center"),
+        plot_caption  = element_text(size=8,  color="#888888"),
+        legend_title  = element_text(size=9,  weight="bold"),
+        legend_text   = element_text(size=8),
+        figure_size   = (11, 6)
+    )
+)
+```
+
+## Bar Chart: The Ten Countries Failing Their Adolescents Most
+
+*The chart indicates the average out-of-school rate of each country, averaged over all the years the survey was conducted. The blue line is dotted as it marks the world average that is a handy comparison point.*
+
+```{python}
+#| label: fig-bar-chart
+#| fig-cap: "Figure shows the top 10 countries where the average out-of-school rates among lower-secondary adolescents are the highest. Niger has a rate of 69.7; this is nearly five times more than the world average of 14.2. The most noteworthy thing is that all the countries in this list are located in Sub-Saharan Africa. This clearly indicates that the problem is not distributed uniformly on the planet but is very concentrated in a particular area indicating the necessity of specific and region-related policy interventions."
+#| fig-width: 9
+#| fig-height: 6
+#| echo: true
+
+(
+    ggplot(top10,
+           aes(x="reorder(country_display, avg_oos_rate)",
+               y="avg_oos_rate",
+               fill="avg_oos_rate"))
+    + geom_col(width=0.7)
+    + geom_text(
+        aes(label="label"),
+        ha="left", size=9, nudge_y=0.8, color="#333333"
+    )
+    + geom_hline(yintercept=14.2, linetype="dashed",
+                 color="#1a6baf", size=0.8)
+    + annotate("text", x=0.8, y=16.5,
+               label="Global avg: 14.2%",
+               color="#1a6baf", size=8, ha="left")
+    + coord_flip()
+    + scale_fill_gradient(low="#f4a460", high="#8b0000")
+    + guides(fill=False)
+    + scale_y_continuous(
+        limits=[0, 80],
+        breaks=range(0, 81, 10),
+        labels=lambda l: [f"{x}%" for x in l]
+    )
+    + labs(
+        title    = "Top 10 Countries with the Highest Out-of-School Rates",
+        subtitle = ("Average across all available survey years"
+                    " | Lower secondary adolescents"),
+        x        = "",
+        y        = "Average Out-of-School Rate (%)",
+        caption  = "Source: UNICEF Indicator 1"
+    )
+    + theme_classic()
+    + theme(
+        plot_title        = element_text(size=13, weight="bold", color="#1a1a2e"),
+        plot_subtitle     = element_text(size=10, color="#555555"),
+        plot_caption      = element_text(size=8,  color="#888888"),
+        axis_title_x      = element_text(size=10),
+        axis_title_y      = element_blank(),
+        axis_text         = element_text(size=10),
+        panel_grid_major_x = element_line(color="#eeeeee"),
+        panel_grid_minor_x = element_blank(),
+        figure_size       = (9, 6)
+    )
+)
+```
+
+## Scatterplot: Wealth Predicts School Access
+
+*The chart illustrates the latest out-of-school (OOS) rate of a country versus its GDP per capita on a logarithmic scale. The magnitude of any point is the extent of the out-of-school rate which is easier to identify the countries with the most challenges. A linear regression fit to the red line depicts a 95% confidence band, which is useful in indicating the general slope in the data.
+*
+
+```{python}
+#| label: fig-scatter
+#| fig-cap: "The higher the level of GDP per capita, the lower the out of school rates. It is not a perfectly linear relationship that is why the x-axis is provided in a log scale. The largest gains are observed on the side of the poorest nations- smaller gains in income at lower levels go hand in hand with huge decreases in out-of-school rates. In nations with a GDP per capita that has less than $2,000, the out-of-school rates are usually between 20% and 40%. Conversely, those countries that have a higher GDP per capita that exceeds $10,000 are likely to focus around zero. The regression line also further affirms this trend, which validates a significant negative correlation between the income levels and out-of-school rates"
+#| fig-width: 9
+#| fig-height: 6
+#| echo: true
+
+(
+    ggplot(scatter_data,
+           aes(x="gdp_per_capita", y="oos_rate"))
+    + geom_point(
+        aes(size="oos_rate"),
+        alpha=0.6, color="#e07b39", show_legend=False
+    )
+    + geom_smooth(
+        method="lm",
+        color="#8b0000", fill="#f4a46050", size=1.2
+    )
+    + geom_hline(
+        yintercept=14.2,
+        linetype="dotted", color="#1a6baf", size=0.7
+    )
+    + annotate("text", x=60000, y=17,
+               label="Global avg 14.2%",
+               color="#1a6baf", size=7)
+    + scale_x_log10(
+        breaks=[500, 1000, 2000, 5000, 10000, 30000, 80000],
+        labels=["$500", "$1K", "$2K", "$5K", "$10K", "$30K", "$80K"]
+    )
+    + scale_y_continuous(
+        limits=[0, 75],
+        breaks=range(0, 76, 15),
+        labels=lambda l: [f"{x}%" for x in l]
+    )
+    + labs(
+        title    = "Wealthier Countries Keep More Adolescents in School",
+        subtitle = ("GDP per capita (log scale) vs out-of-school rate"
+                    " | Most recent survey year per country"),
+        x        = "GDP per Capita (constant 2015 USD, log scale)",
+        y        = "Out-of-School Rate (%)",
+        caption  = ("Source: UNICEF Indicator 1"
+                    " | World Bank via UNICEF Metadata")
+    )
+    + theme_minimal()
+    + theme(
+        plot_title       = element_text(size=13, weight="bold", color="#1a1a2e"),
+        plot_subtitle    = element_text(size=10, color="#555555"),
+        plot_caption     = element_text(size=8,  color="#888888"),
+        axis_title       = element_text(size=10),
+        axis_text        = element_text(size=9),
+        panel_grid_minor = element_blank(),
+        figure_size      = (9, 6)
+    )
+)
+```
+
+## Time-Series: The Gender Gap Over Time (2010–2020)
+
+*This analysis is an out-of-school rate of females and males in the world every year. There is a similar trend in the whole dataset- in all the years, girls out-of-school rates are greater than those of boys.
+*
+
+```{python}
+#| label: fig-timeseries
+#| fig-cap: "Figure highlights this trend over the period 2010 to 2020. On average, the out-of-school rate for girls stands at 14.7%, compared to 13.6% for boys, and this gap persists throughout all years in the dataset. Even though there are minor fluctuations in the changes in the year to year changes which could be attributed to changes in coverage of the country, the overall trend remains the same. There is no point when the female line is less than the male line. This provides a good picture of the existence of a systematic gender disparity in access to education that is here to stay."
+#| fig-width: 9
+#| fig-height: 5.5
+#| echo: true
+
+(
+    ggplot(gender_trend,
+           aes(x="year", y="avg_oos_rate",
+               color="sex", group="sex"))
+    + geom_line(size=1.3)
+    + geom_point(size=3)
+    + geom_hline(
+        yintercept=14.2,
+        linetype="dotted", color="#555555", size=0.6
+    )
+    + annotate(
+        "text", x=2019.5, y=15.8,
+        label="Overall avg 14.2%",
+        color="#555555", size=7
+    )
+    + scale_color_manual(
+        values={"Female": "#c0392b", "Male": "#2980b9"},
+        name="Sex"
+    )
+    + scale_x_continuous(breaks=list(range(2010, 2021)))
+    + scale_y_continuous(
+        limits=[0, 55],
+        breaks=range(0, 56, 10),
+        labels=lambda l: [f"{x}%" for x in l]
+    )
+    + labs(
+        title    = "Girls Are Consistently More Excluded from School",
+        subtitle = ("Global average out-of-school rate by sex"
+                    " | Lower secondary adolescents | 2010-2020"),
+        x        = "Year",
+        y        = "Average Out-of-School Rate (%)",
+        caption  = ("Source: UNICEF Indicator 1\n"
+                    "Note: Year-to-year variation partly reflects "
+                    "changing country coverage in the dataset.")
+    )
+    + theme_minimal()
+    + theme(
+        plot_title       = element_text(size=13, weight="bold", color="#1a1a2e"),
+        plot_subtitle    = element_text(size=10, color="#555555"),
+        plot_caption     = element_text(size=8,  color="#888888"),
+        axis_title       = element_text(size=10),
+        axis_text        = element_text(size=9),
+        panel_grid_minor = element_blank(),
+        legend_title     = element_text(size=9, weight="bold"),
+        legend_text      = element_text(size=9),
+        legend_position  = "top",
+        figure_size      = (9, 5.5)
+    )
+)
+```
+
+---
+
+# The Story: Education Denied
+
+## A Crisis Concentrated in the Poorest Places
+
+The regional concentration is apparent in the world map. Sub-Saharan Africa
+explains all the ten poorest-performing countries in the data:
+
+| Country | Avg OOS Rate |
+|---|---|
+| **Niger** | 69.7% |
+| **South Sudan** | 63.0% |
+| **Mali** | 59.0% |
+| **Tanzania** | 57.0% |
+| **Burkina Faso** | 57.0% |
+
+By contrast, Eastern Europe and Central Asian countries exhibit close to zero out-of-school rates. Indicatively, Belarus (0.1%), Serbia (0.2%), and Kazakhstan (0.2%) have almost complete attendance at school. Education is a fundamental human right in every part of the world, but the results are quite varied. This is a clear indication that though the right is on paper in all countries, the actual application and influence of the right is very different in different countries.
+
+## The Economic Driver
+
+The scatterplot helps in explaining one of the major reasons of such inequalities-poverty. The relationship between the GDP per capita and the out-of-school (OOS) rates is obviously negative and is not to be overlooked. Nations whose GDP per capita is less than 2000 dollars typically have OOS rates of 20-50% but those above 10,000 are usually nearer to zero. The regression line can also reveal this in the fact that it demonstrates that the relationship between the level of income and access to schools is strong and statistically significant.
+Low income does not only impact one thing on education- it establishes a chain of obstacles. Families do not always have the means to cover basic school expenses such as fees, uniforms and learning resources. In most situations, children have to work in order to make ends meet and education is not a priority. The other issue is accessibility since schools may not be within a feasible distance to reach, especially in the rural environment. In the case of schools, they tend to be poor staffed, underpaid, undertrained and understaffed.
+
+## The Girl Who Never Got to Go
+
+Another long-term problem that the time-series analysis shows is gender inequality. The average out-of-school rate among girls (14.7%), compared to boys (13.6%), is still greater in all years between 2010 and 2020. This difference is also homogenous across the data and even more in those nations where the exclusion rate is the largest. It is the social and cultural factors that perform this role. Most communities require girls to go out to perform in the homes and therefore they do not have time to attend school. Insecurity, particularly travelling in and out of school is also a fear that discourages attendance. Therefore, girls tend to be the first casualties of failure to get an education.
+
+## Attendance Is Not the Same as Learning
+
+The adjusted net attendance rate (indicator 2) is yet another significant dimension to this discussion. With a global average of 63.3%, it shows that even among those who are officially enrolled, regular attendance is not guaranteed. This underscores that the access issue is not the only challenge in education. It is not merely whether a child can go to school, but also whether or not he/she is capable of going to school on a regular basis and staying interested.
+
+## Conclusion
+
+The general image that the data is depicting is clear and consistent. In 115 countries and ten years of observations, three important determinants of whether an adolescent obtains education persist: poverty, geography and gender inequality. Even though progress has been made globally in enhancing the enrollment rates, the gains have not extended to the poorest groups.
+In order to realize the world promise of SDG 4- Quality Education for All, specific and targeted action is necessary. The countries and populations identified during this analysis need to be invested in. In Nigeria, South Sudan, and Mali, teenagers are supposed to enjoy equal educational opportunities that are shared in Belarus and Kazakhstan. The information does not merely manage to pinpoint the issue, it is a clear direction of where the work needs to start.
+
+
+---
+
+# Appendix: Summary Statistics
+
+```{python}
+#| label: appendix-summary
+#| echo: true
+
+print("=" * 58)
+print("  INDICATOR 1: Out-of-School Rate - Numeric Summary")
+print("=" * 58)
+print(ind1_total.select(["obs_value"]).describe())
+
+print("\n" + "=" * 58)
+print("  TOP 10 WORST-PERFORMING COUNTRIES")
+print("=" * 58)
+print(
+    country_avg.head(10)
+    .select(["country", "avg_oos_rate", "n_obs",
+             "min_oos_rate", "max_oos_rate"])
+)
+
+print("\n" + "=" * 58)
+print("  GENDER AVERAGES ACROSS ALL YEARS")
+print("=" * 58)
+gender_summary = (
+    indicator1
+    .filter(pl.col("sex").is_in(["Female", "Male"]))
+    .filter(pl.col("obs_value").is_not_null())
+    .group_by("sex")
+    .agg(
+        pl.col("obs_value").mean().round(2).alias("mean_oos_rate"),
+        pl.col("obs_value").std().round(2).alias("std_oos_rate"),
+        pl.col("obs_value").min().round(2).alias("min_oos_rate"),
+        pl.col("obs_value").max().round(2).alias("max_oos_rate"),
+        pl.col("country").n_unique().alias("n_countries")
+    )
+    .sort("sex")
+)
+print(gender_summary)
+
+print("\n" + "=" * 58)
+print("  SCATTER DATASET - GDP vs OOS RATE SUMMARY")
+print("=" * 58)
+print(
+    scatter_data[["oos_rate", "gdp_per_capita", "life_expectancy"]]
+    .describe()
+    .round(2)
+)
+```
